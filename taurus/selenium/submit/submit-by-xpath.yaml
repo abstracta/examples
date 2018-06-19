@@ -17,6 +17,6 @@ scenarios:
       actions:
       - go(https://abstracta.github.io/examples/resources/form/form.html)
       - clickByName(fname)
-      - typeByID(search_blog_field): "Hello"
+      - typeByName(fname): "Hello"
       - submitByXPath(//*[@id="nameform"]/table/tbody/tr[3]/td/button)
       - assertTextByCSS(#result): "Done!"

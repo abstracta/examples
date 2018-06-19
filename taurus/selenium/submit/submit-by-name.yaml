@@ -16,8 +16,7 @@ scenarios:
     - label: Test
       actions:
       - go(https://abstracta.github.io/examples/resources/form/form.html)
-      - clickByCSS(body)
       - clickByName(fname)
-      - typeByID(search_blog_field): "Hello"
+      - typeByName(fname): "Hello"
       - submitByName(go)
       - assertTextByCSS(#result): "Done!"
