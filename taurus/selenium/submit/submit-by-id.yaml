@@ -7,11 +7,11 @@ modules:
 
 execution:
 - executor: selenium
-  scenario: RECORD 05-08-18 5.44.33 PM-Selenium
+  scenario: submitByID-Selenium
   iterations: 1
 
 scenarios:
-  RECORD 05-08-18 5.44.33 PM-Selenium:
+  submitByID-Selenium:
     browser: Chrome  # available browsers are: ["Firefox", "Chrome", "Ie", "Opera"]
     headless: false
     timeout: 60s
@@ -19,12 +19,8 @@ scenarios:
     requests:
     - label: Test
       actions:
-      - go(https://abstracta.us/industries/ecommerce)
-      - clickByID(fullname)
-      - typeByID(fullname): "Santiago Cabrera"
-      - typeByID(comment): "11123"
-      - clickByID(email)
-      - clickByID(organization)
-      - typeByID(organization): "Abstracta"
-      - typeByID(role): "Tester"
-      - submitByID(_form_26_)
+      - go(https://abstracta.github.io/examples/resources/form/form.html)
+      - clickByName(fname)
+      - typeByID(search_blog_field): "Hello"
+      - submitByID(go)
+      - assertTextByCSS(#result): "Done!"

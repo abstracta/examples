@@ -7,11 +7,11 @@ modules:
 
 execution:
 - executor: selenium
-  scenario: RECORD 05-08-18 5.58.26 PM-Selenium
+  scenario: submitByName-Selenium
   iterations: 1
 
 scenarios:
-  RECORD 05-08-18 5.58.26 PM-Selenium:
+  submitByName-Selenium:
     browser: Chrome  # available browsers are: ["Firefox", "Chrome", "Ie", "Opera"]
     headless: false
     timeout: 60s
@@ -20,8 +20,7 @@ scenarios:
     - label: Test
       actions:
       - go(https://abstracta.github.io/examples/resources/form/form.html)
-      - clickByCSS(html)
       - clickByName(fname)
-      - typeByName(fname): "hello"
-      - typeByName(lname): "world"
-      - submitByName(submit)
+      - typeByID(search_blog_field): "Hello"
+      - submitByName(go)
+      - assertTextByCSS(#result): "Done!"
