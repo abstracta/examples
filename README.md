@@ -34,7 +34,10 @@ Some examples of tools used in automation and performance tests
 
 [Windows / Tabs](./taurus/selenium/windows)
 
-## JMeter
+### JMeter
 
-oming soon
+Coming soon
 
+## JMeter (JMX)
+
+Coming soon
