@@ -6,33 +6,33 @@ Some examples of tools used in automation and performance tests
 
 ### Selenium (Nose Request)
 
-[Assert](./taurus/selenium/assert)
+[Assert](https://github.com/abstracta/examples/tree/master/taurus/selenium/assert)
 
-[Cliack and Double click](./taurus/selenium/click-and-double-click)
+[Cliack and Double click](https://github.com/abstracta/examples/tree/master/taurus/selenium/click-and-double-click)
 
-[Drag and Drop](./taurus/selenium/drag-and-drop)
+[Drag and Drop](https://github.com/abstracta/examples/tree/master/taurus/selenium/drag-and-drop)
 
-[Edit content](./taurus/selenium/edit-content)
+[Edit content](https://github.com/abstracta/examples/tree/master/taurus/selenium/edit-content)
 
-[Frames](./taurus/selenium/frames)
+[Frames](https://github.com/abstracta/examples/tree/master/taurus/selenium/frames)
 
-[Go and URL](./taurus/selenium/go-and-url)
+[Go and URL](https://github.com/abstracta/examples/tree/master/taurus/selenium/go-and-url)
 
-[Implicit and explicit waits](./selenium/implicit-and-explicit-waits)
+[Implicit and explicit waits](https://github.com/abstracta/examples/tree/master/selenium/implicit-and-explicit-waits)
 
-[Mouse events](./taurus/selenium/mouse)
+[Mouse events](https://github.com/abstracta/examples/tree/master/taurus/selenium/mouse)
 
-[Javascript](./taurus/selenium/script)
+[Javascript](https://github.com/abstracta/examples/tree/master/taurus/selenium/script)
 
-[Select](./taurus/selenium/select)
+[Select](https://github.com/abstracta/examples/tree/master/taurus/selenium/select)
 
-[Variables / Store](./taurus/selenium/store)
+[Variables / Store](https://github.com/abstracta/examples/tree/master/taurus/selenium/store)
 
-[Submit](./taurus/selenium/submit)
+[Submit](https://github.com/abstracta/examples/tree/master/taurus/selenium/submit)
 
-[Type and input keys](./taurus/selenium/type-and-keys)
+[Type and input keys](https://github.com/abstracta/examples/tree/master/taurus/selenium/type-and-keys)
 
-[Windows / Tabs](./taurus/selenium/windows)
+[Windows / Tabs](https://github.com/abstracta/examples/tree/master/taurus/selenium/windows)
 
 ### JMeter
 
