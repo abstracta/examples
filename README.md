@@ -18,7 +18,7 @@ Some examples of tools used in automation and performance tests
 
 [Go and URL](https://github.com/abstracta/examples/tree/master/taurus/selenium/go-and-url)
 
-[Implicit and explicit waits](https://github.com/abstracta/examples/tree/master/selenium/implicit-and-explicit-waits)
+[Implicit and explicit waits](https://github.com/abstracta/examples/tree/master/taurus/selenium/implicit-and-explicit-waits)
 
 [Mouse events](https://github.com/abstracta/examples/tree/master/taurus/selenium/mouse)
 
