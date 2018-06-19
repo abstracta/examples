@@ -1,13 +1,14 @@
-
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<form action="/action_page.php" method="get" id="nameform">
-  First name: <input type="text" name="fname"><br>
-  Last name: <input type="text" name="lname"><br>
-  <button type="submit" name="submit" value="Submit">Submit</button>
-</form>
-
-</body>
+        <form action="javascript:document.getElementById('result').textContent='Done!';" id="nameform">
+            <table>
+                <tr><td>First name:</td><td><input type="text" name="fname"></td></tr>
+                <tr><td>Last name:</td><td><input type="text" name="lname"></td></tr>
+                <tr><td colspan=2><button id="go" name="go" type="submit" name="submit" value="Submit">Submit</button></td></tr>
+            </table>   
+        </form>
+        <span id="result"></span>
+    </body>
 </html>
