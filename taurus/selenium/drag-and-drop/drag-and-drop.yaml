@@ -17,10 +17,9 @@ scenarios:
     timeout: 60s
     think-time: 0s
     requests:
-    #- url: http://crossbrowsertesting.github.io/drag-and-drop.html
-    - url: http://jqueryui.com/resources/demos/droppable/default.html
-      label: Test
+    - label: Test
       actions:
+      - go(https://abstracta.github.io/examples/resources/drag-and-drop/drag-and-drop.html)
       - dragByID(draggable): "elementByID(droppable)"
       - pauseFor(3s)
       - assertTextByXPath(//*[@id="droppable"]/p): Dropped!
