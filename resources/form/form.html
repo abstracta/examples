@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
+    <script>
+        function formOnSubmit(myForm) {
+            document.getElementById("result").innerHTML="Done!";
+            return false;
+        }
+    </script>
     <body>
-
-        <form action="javascript:document.getElementById('result').textContent='Done!';" id="nameform">
+        <form action="#" onsubmit="return formOnSubmit(this);" id="nameform">
             <table>
                 <tr><td>First name:</td><td><input type="text" name="fname"></td></tr>
                 <tr><td>Last name:</td><td><input type="text" name="lname"></td></tr>
