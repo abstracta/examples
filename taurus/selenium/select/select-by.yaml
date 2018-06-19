@@ -19,7 +19,7 @@ scenarios:
     requests:
     - label: Test
       actions:
-      - go(https://abstracta.github.io/examples/resources/select-by/dropdown.html)
+      - go(https://abstracta.github.io/examples/resources/select/dropdown.html)
       - clickByID(dropdown)
       - selectByID(dropdown): "Option 1"
       - clickByID(dropdown)

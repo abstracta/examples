@@ -19,7 +19,7 @@ scenarios:
     requests:
     - label: Test
       actions:
-      - go(https://abstracta.github.io/examples/resources/select-windows/windows.html)
+      - go(https://abstracta.github.io/examples/resources/windows/windows.html)
       - clickByLinkText(Click Here)
       - switchWindow(win_ser_1)
       - assertTextByCSS(body): "New Window"

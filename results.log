@@ -1,726 +1,1065 @@
 Tests results: 
-15:58:58 INFO: Taurus CLI Tool v1.12.0
-15:58:58 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\assert\\assert-text-by-id.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-15:58:58 INFO: Configuring...
-15:58:58 INFO: Artifacts dir: C:\temp\delete
-15:58:58 INFO: Preparing...
-15:58:59 INFO: Starting...
-15:58:59 INFO: Waiting for results...
-16:00:10 WARNING: Please wait for graceful shutdown...
-16:00:10 INFO: Shutting down...
-16:00:10 INFO: Post-processing...
-16:00:10 INFO: Test duration: 0:01:11
-16:00:10 INFO: Samples count: 1, 100.00% failures
-16:00:10 INFO: Average times: total 60.550, latency 0.000, connect 0.000
-16:00:10 INFO: Percentile 0.0%: 60.544
-16:00:10 INFO: Percentile 50.0%: 60.575
-16:00:10 INFO: Percentile 90.0%: 60.575
-16:00:10 INFO: Percentile 95.0%: 60.575
-16:00:10 INFO: Percentile 99.0%: 60.575
-16:00:10 INFO: Percentile 99.9%: 60.575
-16:00:10 INFO: Percentile 100.0%: 60.575
-16:00:10 INFO: Test duration: 0:01:11
-16:00:10 INFO: Samples count: 1, 100.00% failures
-16:00:10 INFO: Average times: total 60.550, latency 0.000, connect 0.000
-16:00:10 INFO: Percentile 0.0%: 60.544
-16:00:10 INFO: Percentile 50.0%: 60.575
-16:00:10 INFO: Percentile 90.0%: 60.575
-16:00:10 INFO: Percentile 95.0%: 60.575
-16:00:10 INFO: Percentile 99.0%: 60.575
-16:00:10 INFO: Percentile 99.9%: 60.575
-16:00:10 INFO: Percentile 100.0%: 60.575
-16:00:10 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:00:10 INFO: | label | status | success | avg time | error                                                       |
-16:00:10 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:00:10 INFO: | Test  |  FAIL  |  0.00%  |  60.550  | NoSuchElementException: Message: no such element: Unable to |
-16:00:10 INFO: |       |        |         |          | locate element: {"method":"id","selector":"btnClick"}       |
-16:00:10 INFO: |       |        |         |          | (Session info: chrome=67.0.3396.87)    (Driver info:        |
-16:00:10 INFO: |       |        |         |          | chromedriver=2.39.562718                                    |
-16:00:10 INFO: |       |        |         |          | (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows |
-16:00:10 INFO: |       |        |         |          | NT 10.0.17134 x86_64)                                       |
-16:00:10 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:00:10 INFO: Artifacts dir: C:\temp\delete
-16:00:10 INFO: Done performing with code: 0
-16:00:11 INFO: Taurus CLI Tool v1.12.0
-16:00:11 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\click-and-double-click\\click-at.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:00:11 INFO: Configuring...
-16:00:11 INFO: Artifacts dir: C:\temp\delete
-16:00:11 INFO: Preparing...
-16:00:11 INFO: Starting...
-16:00:11 INFO: Waiting for results...
-16:00:29 INFO: Current: 0 vu	1 succ	0 fail	2.447 avg rt	/	Cumulative: 2.447 avg rt, 0% failures
-16:00:30 INFO: Changed data analysis delay to 5s
-16:00:30 WARNING: Please wait for graceful shutdown...
-16:00:30 INFO: Shutting down...
-16:00:30 INFO: Post-processing...
-16:00:30 INFO: Test duration: 0:00:19
-16:00:30 INFO: Samples count: 5, 0.00% failures
-16:00:30 INFO: Average times: total 1.454, latency 0.000, connect 0.000
-16:00:30 INFO: Percentile 0.0%: 0.605
-16:00:30 INFO: Percentile 50.0%: 0.805
-16:00:30 INFO: Percentile 90.0%: 2.661
-16:00:30 INFO: Percentile 95.0%: 2.661
-16:00:30 INFO: Percentile 99.0%: 2.661
-16:00:30 INFO: Percentile 99.9%: 2.661
-16:00:30 INFO: Percentile 100.0%: 2.661
-16:00:30 INFO: Test duration: 0:00:19
-16:00:30 INFO: Samples count: 5, 0.00% failures
-16:00:30 INFO: Average times: total 1.454, latency 0.000, connect 0.000
-16:00:30 INFO: Percentile 0.0%: 0.605
-16:00:30 INFO: Percentile 50.0%: 0.805
-16:00:30 INFO: Percentile 90.0%: 2.661
-16:00:30 INFO: Percentile 95.0%: 2.661
-16:00:30 INFO: Percentile 99.0%: 2.661
-16:00:30 INFO: Percentile 99.9%: 2.661
-16:00:30 INFO: Percentile 100.0%: 2.661
-16:00:30 INFO: +------------+--------+---------+----------+-------+
-16:00:30 INFO: | label      | status | success | avg time | error |
-16:00:30 INFO: +------------+--------+---------+----------+-------+
-16:00:30 INFO: | Test       |   OK   | 100.00% |  2.447   |       |
-16:00:30 INFO: | byCSS      |   OK   | 100.00% |  0.805   |       |
-16:00:30 INFO: | byLinkTest |   OK   | 100.00% |  2.660   |       |
-16:00:30 INFO: | byName     |   OK   | 100.00% |  0.605   |       |
-16:00:30 INFO: | byXPath    |   OK   | 100.00% |  0.753   |       |
-16:00:30 INFO: +------------+--------+---------+----------+-------+
-16:00:30 INFO: Artifacts dir: C:\temp\delete
-16:00:30 INFO: Done performing with code: 0
-16:00:31 INFO: Taurus CLI Tool v1.12.0
-16:00:31 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\click-and-double-click\\click-by-id.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:00:31 INFO: Configuring...
-16:00:31 INFO: Artifacts dir: C:\temp\delete
-16:00:31 INFO: Preparing...
-16:00:31 INFO: Starting...
-16:00:31 INFO: Waiting for results...
-16:01:42 WARNING: Please wait for graceful shutdown...
-16:01:42 INFO: Shutting down...
-16:01:43 INFO: Post-processing...
-16:01:43 INFO: Test duration: 0:01:11
-16:01:43 INFO: Samples count: 1, 100.00% failures
-16:01:43 INFO: Average times: total 60.503, latency 0.000, connect 0.000
-16:01:43 INFO: Percentile 0.0%: 60.480
-16:01:43 INFO: Percentile 50.0%: 60.511
-16:01:43 INFO: Percentile 90.0%: 60.511
-16:01:43 INFO: Percentile 95.0%: 60.511
-16:01:43 INFO: Percentile 99.0%: 60.511
-16:01:43 INFO: Percentile 99.9%: 60.511
-16:01:43 INFO: Percentile 100.0%: 60.511
-16:01:43 INFO: Test duration: 0:01:11
-16:01:43 INFO: Samples count: 1, 100.00% failures
-16:01:43 INFO: Average times: total 60.503, latency 0.000, connect 0.000
-16:01:43 INFO: Percentile 0.0%: 60.480
-16:01:43 INFO: Percentile 50.0%: 60.511
-16:01:43 INFO: Percentile 90.0%: 60.511
-16:01:43 INFO: Percentile 95.0%: 60.511
-16:01:43 INFO: Percentile 99.0%: 60.511
-16:01:43 INFO: Percentile 99.9%: 60.511
-16:01:43 INFO: Percentile 100.0%: 60.511
-16:01:43 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:01:43 INFO: | label | status | success | avg time | error                                                       |
-16:01:43 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:01:43 INFO: | Test  |  FAIL  |  0.00%  |  60.503  | NoSuchElementException: Message: no such element: Unable to |
-16:01:43 INFO: |       |        |         |          | locate element: {"method":"id","selector":"btnClick"}       |
-16:01:43 INFO: |       |        |         |          | (Session info: chrome=67.0.3396.87)    (Driver info:        |
-16:01:43 INFO: |       |        |         |          | chromedriver=2.39.562718                                    |
-16:01:43 INFO: |       |        |         |          | (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows |
-16:01:43 INFO: |       |        |         |          | NT 10.0.17134 x86_64)                                       |
-16:01:43 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:01:43 INFO: Artifacts dir: C:\temp\delete
-16:01:43 INFO: Done performing with code: 0
-16:01:44 INFO: Taurus CLI Tool v1.12.0
-16:01:44 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\click-and-double-click\\double-click-at-link-text.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:01:44 INFO: Configuring...
-16:01:44 INFO: Artifacts dir: C:\temp\delete
-16:01:44 INFO: Preparing...
-16:01:44 INFO: Starting...
-16:01:44 INFO: Waiting for results...
-16:01:58 WARNING: Please wait for graceful shutdown...
-16:01:58 INFO: Shutting down...
-16:01:58 INFO: Post-processing...
-16:01:58 INFO: Test duration: 0:00:14
-16:01:58 INFO: Samples count: 1, 0.00% failures
-16:01:58 INFO: Average times: total 3.913, latency 0.000, connect 0.000
-16:01:58 INFO: Percentile 0.0%: 3.912
-16:01:58 INFO: Percentile 50.0%: 3.913
-16:01:58 INFO: Percentile 90.0%: 3.913
-16:01:58 INFO: Percentile 95.0%: 3.913
-16:01:58 INFO: Percentile 99.0%: 3.913
-16:01:58 INFO: Percentile 99.9%: 3.913
-16:01:58 INFO: Percentile 100.0%: 3.913
-16:01:58 INFO: Test duration: 0:00:14
-16:01:58 INFO: Samples count: 1, 0.00% failures
-16:01:58 INFO: Average times: total 3.913, latency 0.000, connect 0.000
-16:01:58 INFO: Percentile 0.0%: 3.912
-16:01:58 INFO: Percentile 50.0%: 3.913
-16:01:58 INFO: Percentile 90.0%: 3.913
-16:01:58 INFO: Percentile 95.0%: 3.913
-16:01:58 INFO: Percentile 99.0%: 3.913
-16:01:58 INFO: Percentile 99.9%: 3.913
-16:01:58 INFO: Percentile 100.0%: 3.913
-16:01:58 INFO: +-------+--------+---------+----------+-------+
-16:01:58 INFO: | label | status | success | avg time | error |
-16:01:58 INFO: +-------+--------+---------+----------+-------+
-16:01:58 INFO: | Test  |   OK   | 100.00% |  3.913   |       |
-16:01:58 INFO: +-------+--------+---------+----------+-------+
-16:01:58 INFO: Artifacts dir: C:\temp\delete
-16:01:58 INFO: Done performing with code: 0
-16:01:59 INFO: Taurus CLI Tool v1.12.0
-16:01:59 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\click-and-double-click\\double-click-at.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:01:59 INFO: Configuring...
-16:01:59 INFO: Artifacts dir: C:\temp\delete
-16:01:59 INFO: Preparing...
-16:01:59 INFO: Starting...
-16:01:59 INFO: Waiting for results...
-16:03:09 WARNING: Please wait for graceful shutdown...
-16:03:09 INFO: Shutting down...
-16:03:09 INFO: Post-processing...
-16:03:09 INFO: Test duration: 0:01:10
-16:03:09 INFO: Samples count: 1, 100.00% failures
-16:03:09 INFO: Average times: total 60.375, latency 0.000, connect 0.000
-16:03:09 INFO: Percentile 0.0%: 60.352
-16:03:09 INFO: Percentile 50.0%: 60.383
-16:03:09 INFO: Percentile 90.0%: 60.383
-16:03:09 INFO: Percentile 95.0%: 60.383
-16:03:09 INFO: Percentile 99.0%: 60.383
-16:03:09 INFO: Percentile 99.9%: 60.383
-16:03:09 INFO: Percentile 100.0%: 60.383
-16:03:09 INFO: Test duration: 0:01:10
-16:03:09 INFO: Samples count: 1, 100.00% failures
-16:03:09 INFO: Average times: total 60.375, latency 0.000, connect 0.000
-16:03:09 INFO: Percentile 0.0%: 60.352
-16:03:09 INFO: Percentile 50.0%: 60.383
-16:03:09 INFO: Percentile 90.0%: 60.383
-16:03:09 INFO: Percentile 95.0%: 60.383
-16:03:09 INFO: Percentile 99.0%: 60.383
-16:03:09 INFO: Percentile 99.9%: 60.383
-16:03:09 INFO: Percentile 100.0%: 60.383
-16:03:09 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:03:09 INFO: | label | status | success | avg time | error                                                       |
-16:03:09 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:03:09 INFO: | Test  |  FAIL  |  0.00%  |  60.375  | NoSuchElementException: Message: no such element: Unable to |
-16:03:09 INFO: |       |        |         |          | locate element: {"method":"id","selector":"btnClick"}       |
-16:03:09 INFO: |       |        |         |          | (Session info: chrome=67.0.3396.87)    (Driver info:        |
-16:03:09 INFO: |       |        |         |          | chromedriver=2.39.562718                                    |
-16:03:09 INFO: |       |        |         |          | (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows |
-16:03:09 INFO: |       |        |         |          | NT 10.0.17134 x86_64)                                       |
-16:03:09 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:03:09 INFO: Artifacts dir: C:\temp\delete
-16:03:09 INFO: Done performing with code: 0
-16:03:10 INFO: Taurus CLI Tool v1.12.0
-16:03:10 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\drag-and-drop\\drag-and-drop.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:03:10 INFO: Configuring...
-16:03:10 INFO: Artifacts dir: C:\temp\delete
-16:03:10 INFO: Preparing...
-16:03:10 INFO: Starting...
-16:03:10 INFO: Waiting for results...
-16:03:24 WARNING: Please wait for graceful shutdown...
-16:03:24 INFO: Shutting down...
-16:03:24 INFO: Post-processing...
-16:03:24 INFO: Test duration: 0:00:14
-16:03:24 INFO: Samples count: 1, 0.00% failures
-16:03:24 INFO: Average times: total 4.638, latency 0.000, connect 0.000
-16:03:24 INFO: Percentile 0.0%: 4.636
-16:03:24 INFO: Percentile 50.0%: 4.639
-16:03:24 INFO: Percentile 90.0%: 4.639
-16:03:24 INFO: Percentile 95.0%: 4.639
-16:03:24 INFO: Percentile 99.0%: 4.639
-16:03:24 INFO: Percentile 99.9%: 4.639
-16:03:24 INFO: Percentile 100.0%: 4.639
-16:03:24 INFO: Test duration: 0:00:14
-16:03:24 INFO: Samples count: 1, 0.00% failures
-16:03:24 INFO: Average times: total 4.638, latency 0.000, connect 0.000
-16:03:24 INFO: Percentile 0.0%: 4.636
-16:03:24 INFO: Percentile 50.0%: 4.639
-16:03:24 INFO: Percentile 90.0%: 4.639
-16:03:24 INFO: Percentile 95.0%: 4.639
-16:03:24 INFO: Percentile 99.0%: 4.639
-16:03:24 INFO: Percentile 99.9%: 4.639
-16:03:24 INFO: Percentile 100.0%: 4.639
-16:03:24 INFO: +-------+--------+---------+----------+-------+
-16:03:24 INFO: | label | status | success | avg time | error |
-16:03:24 INFO: +-------+--------+---------+----------+-------+
-16:03:24 INFO: | Test  |   OK   | 100.00% |  4.638   |       |
-16:03:24 INFO: +-------+--------+---------+----------+-------+
-16:03:24 INFO: Artifacts dir: C:\temp\delete
-16:03:24 INFO: Done performing with code: 0
-16:03:25 INFO: Taurus CLI Tool v1.12.0
-16:03:25 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\edit-content\\edit-content.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:03:25 INFO: Configuring...
-16:03:25 INFO: Artifacts dir: C:\temp\delete
-16:03:25 INFO: Preparing...
-16:03:25 INFO: Starting...
-16:03:25 INFO: Waiting for results...
-16:03:36 WARNING: Please wait for graceful shutdown...
-16:03:36 INFO: Shutting down...
-16:03:36 INFO: Post-processing...
-16:03:36 INFO: Test duration: 0:00:11
-16:03:36 INFO: Samples count: 1, 100.00% failures
-16:03:36 INFO: Average times: total 1.717, latency 0.000, connect 0.000
-16:03:36 INFO: Percentile 0.0%: 1.717
-16:03:36 INFO: Percentile 50.0%: 1.717
-16:03:36 INFO: Percentile 90.0%: 1.717
-16:03:36 INFO: Percentile 95.0%: 1.717
-16:03:36 INFO: Percentile 99.0%: 1.717
-16:03:36 INFO: Percentile 99.9%: 1.717
-16:03:36 INFO: Percentile 100.0%: 1.717
-16:03:36 INFO: Test duration: 0:00:11
-16:03:36 INFO: Samples count: 1, 100.00% failures
-16:03:36 INFO: Average times: total 1.717, latency 0.000, connect 0.000
-16:03:36 INFO: Percentile 0.0%: 1.717
-16:03:36 INFO: Percentile 50.0%: 1.717
-16:03:36 INFO: Percentile 90.0%: 1.717
-16:03:36 INFO: Percentile 95.0%: 1.717
-16:03:36 INFO: Percentile 99.0%: 1.717
-16:03:36 INFO: Percentile 99.9%: 1.717
-16:03:36 INFO: Percentile 100.0%: 1.717
-16:03:36 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:03:36 INFO: | label | status | success | avg time | error                                                       |
-16:03:36 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:03:36 INFO: | Test  |  FAIL  |  0.00%  |  1.717   | WebDriverException: Message: unknown error: Failed to       |
-16:03:36 INFO: |       |        |         |          | execute 'getComputedStyle' on 'Window': parameter 1 is not  |
-16:03:36 INFO: |       |        |         |          | of type 'Element'.    (Session info: chrome=67.0.3396.87)   |
-16:03:36 INFO: |       |        |         |          | (Driver info: chromedriver=2.39.562718                      |
-16:03:36 INFO: |       |        |         |          | (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows |
-16:03:36 INFO: |       |        |         |          | NT 10.0.17134 x86_64)                                       |
-16:03:36 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:03:36 INFO: Artifacts dir: C:\temp\delete
-16:03:36 INFO: Done performing with code: 0
-16:03:37 INFO: Taurus CLI Tool v1.12.0
-16:03:37 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\frames\\switch-frame.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:03:37 INFO: Configuring...
-16:03:37 INFO: Artifacts dir: C:\temp\delete
-16:03:37 INFO: Preparing...
-16:03:37 INFO: Starting...
-16:03:37 INFO: Waiting for results...
-16:03:47 WARNING: Please wait for graceful shutdown...
-16:03:47 INFO: Shutting down...
-16:03:47 INFO: Post-processing...
-16:03:47 INFO: Test duration: 0:00:10
-16:03:47 INFO: Samples count: 1, 0.00% failures
-16:03:47 INFO: Average times: total 0.890, latency 0.000, connect 0.000
-16:03:47 INFO: Percentile 0.0%: 0.890
-16:03:47 INFO: Percentile 50.0%: 0.890
-16:03:47 INFO: Percentile 90.0%: 0.890
-16:03:47 INFO: Percentile 95.0%: 0.890
-16:03:47 INFO: Percentile 99.0%: 0.890
-16:03:47 INFO: Percentile 99.9%: 0.890
-16:03:47 INFO: Percentile 100.0%: 0.890
-16:03:47 INFO: Test duration: 0:00:10
-16:03:47 INFO: Samples count: 1, 0.00% failures
-16:03:47 INFO: Average times: total 0.890, latency 0.000, connect 0.000
-16:03:47 INFO: Percentile 0.0%: 0.890
-16:03:47 INFO: Percentile 50.0%: 0.890
-16:03:47 INFO: Percentile 90.0%: 0.890
-16:03:47 INFO: Percentile 95.0%: 0.890
-16:03:47 INFO: Percentile 99.0%: 0.890
-16:03:47 INFO: Percentile 99.9%: 0.890
-16:03:47 INFO: Percentile 100.0%: 0.890
-16:03:47 INFO: +-------+--------+---------+----------+-------+
-16:03:47 INFO: | label | status | success | avg time | error |
-16:03:47 INFO: +-------+--------+---------+----------+-------+
-16:03:47 INFO: | Test  |   OK   | 100.00% |  0.890   |       |
-16:03:47 INFO: +-------+--------+---------+----------+-------+
-16:03:47 INFO: Artifacts dir: C:\temp\delete
-16:03:47 INFO: Done performing with code: 0
-16:03:48 INFO: Taurus CLI Tool v1.12.0
-16:03:48 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\go-and-url\\go.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:03:48 INFO: Configuring...
-16:03:48 INFO: Artifacts dir: C:\temp\delete
-16:03:48 INFO: Preparing...
-16:03:48 INFO: Starting...
-16:03:48 INFO: Waiting for results...
-16:04:00 WARNING: Please wait for graceful shutdown...
-16:04:00 INFO: Shutting down...
-16:04:00 INFO: Post-processing...
-16:04:00 INFO: Test duration: 0:00:12
-16:04:00 INFO: Samples count: 1, 0.00% failures
-16:04:00 INFO: Average times: total 2.101, latency 0.000, connect 0.000
-16:04:00 INFO: Percentile 0.0%: 2.100
-16:04:00 INFO: Percentile 50.0%: 2.101
-16:04:00 INFO: Percentile 90.0%: 2.101
-16:04:00 INFO: Percentile 95.0%: 2.101
-16:04:00 INFO: Percentile 99.0%: 2.101
-16:04:00 INFO: Percentile 99.9%: 2.101
-16:04:00 INFO: Percentile 100.0%: 2.101
-16:04:00 INFO: Test duration: 0:00:12
-16:04:00 INFO: Samples count: 1, 0.00% failures
-16:04:00 INFO: Average times: total 2.101, latency 0.000, connect 0.000
-16:04:00 INFO: Percentile 0.0%: 2.100
-16:04:00 INFO: Percentile 50.0%: 2.101
-16:04:00 INFO: Percentile 90.0%: 2.101
-16:04:00 INFO: Percentile 95.0%: 2.101
-16:04:00 INFO: Percentile 99.0%: 2.101
-16:04:00 INFO: Percentile 99.9%: 2.101
-16:04:00 INFO: Percentile 100.0%: 2.101
-16:04:00 INFO: +-------+--------+---------+----------+-------+
-16:04:00 INFO: | label | status | success | avg time | error |
-16:04:00 INFO: +-------+--------+---------+----------+-------+
-16:04:00 INFO: | Test  |   OK   | 100.00% |  2.101   |       |
-16:04:00 INFO: +-------+--------+---------+----------+-------+
-16:04:00 INFO: Artifacts dir: C:\temp\delete
-16:04:00 INFO: Done performing with code: 0
-16:04:00 INFO: Taurus CLI Tool v1.12.0
-16:04:00 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\go-and-url\\url.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:04:00 INFO: Configuring...
-16:04:01 INFO: Artifacts dir: C:\temp\delete
-16:04:01 INFO: Preparing...
-16:04:01 INFO: Starting...
-16:04:01 INFO: Waiting for results...
-16:04:13 WARNING: Please wait for graceful shutdown...
-16:04:13 INFO: Shutting down...
-16:04:13 INFO: Post-processing...
-16:04:13 INFO: Test duration: 0:00:12
-16:04:13 INFO: Samples count: 1, 0.00% failures
-16:04:13 INFO: Average times: total 1.986, latency 0.000, connect 0.000
-16:04:13 INFO: Percentile 0.0%: 1.986
-16:04:13 INFO: Percentile 50.0%: 1.986
-16:04:13 INFO: Percentile 90.0%: 1.986
-16:04:13 INFO: Percentile 95.0%: 1.986
-16:04:13 INFO: Percentile 99.0%: 1.986
-16:04:13 INFO: Percentile 99.9%: 1.986
-16:04:13 INFO: Percentile 100.0%: 1.986
-16:04:13 INFO: Test duration: 0:00:12
-16:04:13 INFO: Samples count: 1, 0.00% failures
-16:04:13 INFO: Average times: total 1.986, latency 0.000, connect 0.000
-16:04:13 INFO: Percentile 0.0%: 1.986
-16:04:13 INFO: Percentile 50.0%: 1.986
-16:04:13 INFO: Percentile 90.0%: 1.986
-16:04:13 INFO: Percentile 95.0%: 1.986
-16:04:13 INFO: Percentile 99.0%: 1.986
-16:04:13 INFO: Percentile 99.9%: 1.986
-16:04:13 INFO: Percentile 100.0%: 1.986
-16:04:13 INFO: +-------+--------+---------+----------+-------+
-16:04:13 INFO: | label | status | success | avg time | error |
-16:04:13 INFO: +-------+--------+---------+----------+-------+
-16:04:13 INFO: | Test  |   OK   | 100.00% |  1.986   |       |
-16:04:13 INFO: +-------+--------+---------+----------+-------+
-16:04:13 INFO: Artifacts dir: C:\temp\delete
-16:04:13 INFO: Done performing with code: 0
-16:04:13 INFO: Taurus CLI Tool v1.12.0
-16:04:13 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\implicit-and-explicit-waits\\pause-for.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:04:13 INFO: Configuring...
-16:04:13 INFO: Artifacts dir: C:\temp\delete
-16:04:14 INFO: Preparing...
-16:04:14 INFO: Starting...
-16:04:14 INFO: Waiting for results...
-16:04:35 WARNING: Please wait for graceful shutdown...
-16:04:35 INFO: Shutting down...
-16:04:35 INFO: Post-processing...
-16:04:35 INFO: Test duration: 0:00:21
-16:04:35 INFO: Samples count: 1, 0.00% failures
-16:04:35 INFO: Average times: total 11.200, latency 0.000, connect 0.000
-16:04:35 INFO: Percentile 0.0%: 11.200
-16:04:35 INFO: Percentile 50.0%: 11.207
-16:04:35 INFO: Percentile 90.0%: 11.207
-16:04:35 INFO: Percentile 95.0%: 11.207
-16:04:35 INFO: Percentile 99.0%: 11.207
-16:04:35 INFO: Percentile 99.9%: 11.207
-16:04:35 INFO: Percentile 100.0%: 11.207
-16:04:35 INFO: Test duration: 0:00:21
-16:04:35 INFO: Samples count: 1, 0.00% failures
-16:04:35 INFO: Average times: total 11.200, latency 0.000, connect 0.000
-16:04:35 INFO: Percentile 0.0%: 11.200
-16:04:35 INFO: Percentile 50.0%: 11.207
-16:04:35 INFO: Percentile 90.0%: 11.207
-16:04:35 INFO: Percentile 95.0%: 11.207
-16:04:35 INFO: Percentile 99.0%: 11.207
-16:04:35 INFO: Percentile 99.9%: 11.207
-16:04:35 INFO: Percentile 100.0%: 11.207
-16:04:35 INFO: +-------+--------+---------+----------+-------+
-16:04:35 INFO: | label | status | success | avg time | error |
-16:04:35 INFO: +-------+--------+---------+----------+-------+
-16:04:35 INFO: | Test  |   OK   | 100.00% |  11.200  |       |
-16:04:35 INFO: +-------+--------+---------+----------+-------+
-16:04:35 INFO: Artifacts dir: C:\temp\delete
-16:04:35 INFO: Done performing with code: 0
-16:04:35 INFO: Taurus CLI Tool v1.12.0
-16:04:35 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\mouse\\mouse-down-at-css.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:04:35 INFO: Configuring...
-16:04:35 INFO: Artifacts dir: C:\temp\delete
-16:04:35 INFO: Preparing...
-16:04:36 INFO: Starting...
-16:04:36 INFO: Waiting for results...
-16:05:46 WARNING: Please wait for graceful shutdown...
-16:05:46 INFO: Shutting down...
-16:05:46 INFO: Post-processing...
-16:05:46 INFO: Test duration: 0:01:10
-16:05:46 INFO: Samples count: 1, 100.00% failures
-16:05:46 INFO: Average times: total 60.404, latency 0.000, connect 0.000
-16:05:46 INFO: Percentile 0.0%: 60.384
-16:05:46 INFO: Percentile 50.0%: 60.415
-16:05:46 INFO: Percentile 90.0%: 60.415
-16:05:46 INFO: Percentile 95.0%: 60.415
-16:05:46 INFO: Percentile 99.0%: 60.415
-16:05:46 INFO: Percentile 99.9%: 60.415
-16:05:46 INFO: Percentile 100.0%: 60.415
-16:05:46 INFO: Test duration: 0:01:10
-16:05:46 INFO: Samples count: 1, 100.00% failures
-16:05:46 INFO: Average times: total 60.404, latency 0.000, connect 0.000
-16:05:46 INFO: Percentile 0.0%: 60.384
-16:05:46 INFO: Percentile 50.0%: 60.415
-16:05:46 INFO: Percentile 90.0%: 60.415
-16:05:46 INFO: Percentile 95.0%: 60.415
-16:05:46 INFO: Percentile 99.0%: 60.415
-16:05:46 INFO: Percentile 99.9%: 60.415
-16:05:46 INFO: Percentile 100.0%: 60.415
-16:05:46 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:05:46 INFO: | label | status | success | avg time | error                                                       |
-16:05:46 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:05:46 INFO: | Test  |  FAIL  |  0.00%  |  60.404  | NoSuchElementException: Message: no such element: Unable to |
-16:05:46 INFO: |       |        |         |          | locate element: {"method":"css selector","selector":"#myP"} |
-16:05:46 INFO: |       |        |         |          | (Session info: chrome=67.0.3396.87)    (Driver info:        |
-16:05:46 INFO: |       |        |         |          | chromedriver=2.39.562718                                    |
-16:05:46 INFO: |       |        |         |          | (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows |
-16:05:46 INFO: |       |        |         |          | NT 10.0.17134 x86_64)                                       |
-16:05:46 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:05:46 INFO: Artifacts dir: C:\temp\delete
-16:05:46 INFO: Done performing with code: 0
-16:05:46 INFO: Taurus CLI Tool v1.12.0
-16:05:46 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\mouse\\mouse-down-at-xpath.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:05:46 INFO: Configuring...
-16:05:46 INFO: Artifacts dir: C:\temp\delete
-16:05:47 INFO: Preparing...
-16:05:47 INFO: Starting...
-16:05:47 INFO: Waiting for results...
-16:06:57 WARNING: Please wait for graceful shutdown...
-16:06:57 INFO: Shutting down...
-16:06:57 INFO: Post-processing...
-16:06:57 INFO: Test duration: 0:01:10
-16:06:57 INFO: Samples count: 1, 100.00% failures
-16:06:57 INFO: Average times: total 60.371, latency 0.000, connect 0.000
-16:06:57 INFO: Percentile 0.0%: 60.352
-16:06:57 INFO: Percentile 50.0%: 60.383
-16:06:57 INFO: Percentile 90.0%: 60.383
-16:06:57 INFO: Percentile 95.0%: 60.383
-16:06:57 INFO: Percentile 99.0%: 60.383
-16:06:57 INFO: Percentile 99.9%: 60.383
-16:06:57 INFO: Percentile 100.0%: 60.383
-16:06:57 INFO: Test duration: 0:01:10
-16:06:57 INFO: Samples count: 1, 100.00% failures
-16:06:57 INFO: Average times: total 60.371, latency 0.000, connect 0.000
-16:06:57 INFO: Percentile 0.0%: 60.352
-16:06:57 INFO: Percentile 50.0%: 60.383
-16:06:57 INFO: Percentile 90.0%: 60.383
-16:06:57 INFO: Percentile 95.0%: 60.383
-16:06:57 INFO: Percentile 99.0%: 60.383
-16:06:57 INFO: Percentile 99.9%: 60.383
-16:06:57 INFO: Percentile 100.0%: 60.383
-16:06:57 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:06:57 INFO: | label | status | success | avg time | error                                                       |
-16:06:57 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:06:57 INFO: | Test  |  FAIL  |  0.00%  |  60.371  | NoSuchElementException: Message: no such element: Unable to |
-16:06:57 INFO: |       |        |         |          | locate element:                                             |
-16:06:57 INFO: |       |        |         |          | {"method":"xpath","selector":"//p[@id='myP']"}    (Session  |
-16:06:57 INFO: |       |        |         |          | info: chrome=67.0.3396.87)    (Driver info:                 |
-16:06:57 INFO: |       |        |         |          | chromedriver=2.39.562718                                    |
-16:06:57 INFO: |       |        |         |          | (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows |
-16:06:57 INFO: |       |        |         |          | NT 10.0.17134 x86_64)                                       |
-16:06:57 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
-16:06:57 INFO: Artifacts dir: C:\temp\delete
-16:06:57 INFO: Done performing with code: 0
-16:06:57 INFO: Taurus CLI Tool v1.12.0
-16:06:57 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\mouse\\mouse-evt.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:06:57 INFO: Configuring...
-16:06:57 INFO: Artifacts dir: C:\temp\delete
-16:06:57 INFO: Preparing...
-16:06:58 INFO: Starting...
-16:06:58 INFO: Waiting for results...
-16:08:08 WARNING: Please wait for graceful shutdown...
-16:08:08 INFO: Shutting down...
-16:08:08 INFO: Post-processing...
-16:08:08 INFO: Test duration: 0:01:10
-16:08:08 INFO: Samples count: 1, 100.00% failures
-16:08:08 INFO: Average times: total 60.276, latency 0.000, connect 0.000
-16:08:08 INFO: Percentile 0.0%: 60.256
-16:08:08 INFO: Percentile 50.0%: 60.287
-16:08:08 INFO: Percentile 90.0%: 60.287
-16:08:08 INFO: Percentile 95.0%: 60.287
-16:08:08 INFO: Percentile 99.0%: 60.287
-16:08:08 INFO: Percentile 99.9%: 60.287
-16:08:08 INFO: Percentile 100.0%: 60.287
-16:08:08 INFO: Test duration: 0:01:10
-16:08:08 INFO: Samples count: 1, 100.00% failures
-16:08:08 INFO: Average times: total 60.276, latency 0.000, connect 0.000
-16:08:08 INFO: Percentile 0.0%: 60.256
-16:08:08 INFO: Percentile 50.0%: 60.287
-16:08:08 INFO: Percentile 90.0%: 60.287
-16:08:08 INFO: Percentile 95.0%: 60.287
-16:08:08 INFO: Percentile 99.0%: 60.287
-16:08:08 INFO: Percentile 99.9%: 60.287
-16:08:08 INFO: Percentile 100.0%: 60.287
-16:08:08 INFO: +-------+--------+---------+----------+--------------------------------------------------------------+
-16:08:08 INFO: | label | status | success | avg time | error                                                        |
-16:08:08 INFO: +-------+--------+---------+----------+--------------------------------------------------------------+
-16:08:08 INFO: | Test  |  FAIL  |  0.00%  |  60.276  | NoSuchElementException: Message: no such element: Unable to  |
-16:08:08 INFO: |       |        |         |          | locate element: {"method":"id","selector":"myP"}    (Session |
-16:08:08 INFO: |       |        |         |          | info: chrome=67.0.3396.87)    (Driver info:                  |
-16:08:08 INFO: |       |        |         |          | chromedriver=2.39.562718                                     |
-16:08:08 INFO: |       |        |         |          | (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows  |
-16:08:08 INFO: |       |        |         |          | NT 10.0.17134 x86_64)                                        |
-16:08:08 INFO: +-------+--------+---------+----------+--------------------------------------------------------------+
-16:08:08 INFO: Artifacts dir: C:\temp\delete
-16:08:08 INFO: Done performing with code: 0
-16:08:08 INFO: Taurus CLI Tool v1.12.0
-16:08:08 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\script\\script-eval.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:08:08 INFO: Configuring...
-16:08:08 INFO: Artifacts dir: C:\temp\delete
-16:08:08 INFO: Preparing...
-16:08:09 INFO: Starting...
-16:08:09 INFO: Waiting for results...
-16:08:24 WARNING: Please wait for graceful shutdown...
-16:08:24 INFO: Shutting down...
-16:08:24 INFO: Post-processing...
-16:08:24 INFO: Test duration: 0:00:15
-16:08:24 INFO: Samples count: 1, 0.00% failures
-16:08:24 INFO: Average times: total 5.473, latency 0.000, connect 0.000
-16:08:24 INFO: Percentile 0.0%: 5.472
-16:08:24 INFO: Percentile 50.0%: 5.475
-16:08:24 INFO: Percentile 90.0%: 5.475
-16:08:24 INFO: Percentile 95.0%: 5.475
-16:08:24 INFO: Percentile 99.0%: 5.475
-16:08:24 INFO: Percentile 99.9%: 5.475
-16:08:24 INFO: Percentile 100.0%: 5.475
-16:08:24 INFO: Test duration: 0:00:15
-16:08:24 INFO: Samples count: 1, 0.00% failures
-16:08:24 INFO: Average times: total 5.473, latency 0.000, connect 0.000
-16:08:24 INFO: Percentile 0.0%: 5.472
-16:08:24 INFO: Percentile 50.0%: 5.475
-16:08:24 INFO: Percentile 90.0%: 5.475
-16:08:24 INFO: Percentile 95.0%: 5.475
-16:08:24 INFO: Percentile 99.0%: 5.475
-16:08:24 INFO: Percentile 99.9%: 5.475
-16:08:24 INFO: Percentile 100.0%: 5.475
-16:08:24 INFO: +-------+--------+---------+----------+-------+
-16:08:24 INFO: | label | status | success | avg time | error |
-16:08:24 INFO: +-------+--------+---------+----------+-------+
-16:08:24 INFO: | Test  |   OK   | 100.00% |  5.473   |       |
-16:08:24 INFO: +-------+--------+---------+----------+-------+
-16:08:24 INFO: Artifacts dir: C:\temp\delete
-16:08:24 INFO: Done performing with code: 0
-16:08:24 INFO: Taurus CLI Tool v1.12.0
-16:08:24 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\select\\select-by\\select-by.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:08:24 INFO: Configuring...
-16:08:24 INFO: Artifacts dir: C:\temp\delete
-16:08:24 INFO: Preparing...
-16:08:25 INFO: Starting...
-16:08:25 INFO: Waiting for results...
-16:08:36 WARNING: Please wait for graceful shutdown...
-16:08:36 INFO: Shutting down...
-16:08:36 INFO: Post-processing...
-16:08:36 INFO: Test duration: 0:00:11
-16:08:36 INFO: Samples count: 1, 0.00% failures
-16:08:36 INFO: Average times: total 1.286, latency 0.000, connect 0.000
-16:08:36 INFO: Percentile 0.0%: 1.286
-16:08:36 INFO: Percentile 50.0%: 1.286
-16:08:36 INFO: Percentile 90.0%: 1.286
-16:08:36 INFO: Percentile 95.0%: 1.286
-16:08:36 INFO: Percentile 99.0%: 1.286
-16:08:36 INFO: Percentile 99.9%: 1.286
-16:08:36 INFO: Percentile 100.0%: 1.286
-16:08:36 INFO: Test duration: 0:00:11
-16:08:36 INFO: Samples count: 1, 0.00% failures
-16:08:36 INFO: Average times: total 1.286, latency 0.000, connect 0.000
-16:08:36 INFO: Percentile 0.0%: 1.286
-16:08:36 INFO: Percentile 50.0%: 1.286
-16:08:36 INFO: Percentile 90.0%: 1.286
-16:08:36 INFO: Percentile 95.0%: 1.286
-16:08:36 INFO: Percentile 99.0%: 1.286
-16:08:36 INFO: Percentile 99.9%: 1.286
-16:08:36 INFO: Percentile 100.0%: 1.286
-16:08:36 INFO: +-------+--------+---------+----------+-------+
-16:08:36 INFO: | label | status | success | avg time | error |
-16:08:36 INFO: +-------+--------+---------+----------+-------+
-16:08:36 INFO: | Test  |   OK   | 100.00% |  1.286   |       |
-16:08:36 INFO: +-------+--------+---------+----------+-------+
-16:08:36 INFO: Artifacts dir: C:\temp\delete
-16:08:36 INFO: Done performing with code: 0
-16:08:36 INFO: Taurus CLI Tool v1.12.0
-16:08:36 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\select\\select-by-name\\select-by-name.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:08:36 INFO: Configuring...
-16:08:36 INFO: Artifacts dir: C:\temp\delete
-16:08:36 INFO: Preparing...
-16:08:36 INFO: Starting...
-16:08:36 INFO: Waiting for results...
-16:08:48 WARNING: Please wait for graceful shutdown...
-16:08:48 INFO: Shutting down...
-16:08:48 INFO: Post-processing...
-16:08:49 INFO: Test duration: 0:00:12
-16:08:49 INFO: Samples count: 1, 0.00% failures
-16:08:49 INFO: Average times: total 2.818, latency 0.000, connect 0.000
-16:08:49 INFO: Percentile 0.0%: 2.818
-16:08:49 INFO: Percentile 50.0%: 2.819
-16:08:49 INFO: Percentile 90.0%: 2.819
-16:08:49 INFO: Percentile 95.0%: 2.819
-16:08:49 INFO: Percentile 99.0%: 2.819
-16:08:49 INFO: Percentile 99.9%: 2.819
-16:08:49 INFO: Percentile 100.0%: 2.819
-16:08:49 INFO: Test duration: 0:00:12
-16:08:49 INFO: Samples count: 1, 0.00% failures
-16:08:49 INFO: Average times: total 2.818, latency 0.000, connect 0.000
-16:08:49 INFO: Percentile 0.0%: 2.818
-16:08:49 INFO: Percentile 50.0%: 2.819
-16:08:49 INFO: Percentile 90.0%: 2.819
-16:08:49 INFO: Percentile 95.0%: 2.819
-16:08:49 INFO: Percentile 99.0%: 2.819
-16:08:49 INFO: Percentile 99.9%: 2.819
-16:08:49 INFO: Percentile 100.0%: 2.819
-16:08:49 INFO: +-------+--------+---------+----------+-------+
-16:08:49 INFO: | label | status | success | avg time | error |
-16:08:49 INFO: +-------+--------+---------+----------+-------+
-16:08:49 INFO: | Test  |   OK   | 100.00% |  2.818   |       |
-16:08:49 INFO: +-------+--------+---------+----------+-------+
-16:08:49 INFO: Artifacts dir: C:\temp\delete
-16:08:49 INFO: Done performing with code: 0
-16:08:49 INFO: Taurus CLI Tool v1.12.0
-16:08:49 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\store\\store-value.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:08:49 INFO: Configuring...
-16:08:49 INFO: Artifacts dir: C:\temp\delete
-16:08:49 INFO: Preparing...
-16:08:49 INFO: Starting...
-16:08:49 INFO: Waiting for results...
-16:09:01 WARNING: Please wait for graceful shutdown...
-16:09:01 INFO: Shutting down...
-16:09:01 INFO: Post-processing...
-16:09:01 INFO: Test duration: 0:00:12
-16:09:01 INFO: Samples count: 1, 0.00% failures
-16:09:01 INFO: Average times: total 2.680, latency 0.000, connect 0.000
-16:09:01 INFO: Percentile 0.0%: 2.680
-16:09:01 INFO: Percentile 50.0%: 2.681
-16:09:01 INFO: Percentile 90.0%: 2.681
-16:09:01 INFO: Percentile 95.0%: 2.681
-16:09:01 INFO: Percentile 99.0%: 2.681
-16:09:01 INFO: Percentile 99.9%: 2.681
-16:09:01 INFO: Percentile 100.0%: 2.681
-16:09:01 INFO: Test duration: 0:00:12
-16:09:01 INFO: Samples count: 1, 0.00% failures
-16:09:01 INFO: Average times: total 2.680, latency 0.000, connect 0.000
-16:09:01 INFO: Percentile 0.0%: 2.680
-16:09:01 INFO: Percentile 50.0%: 2.681
-16:09:01 INFO: Percentile 90.0%: 2.681
-16:09:01 INFO: Percentile 95.0%: 2.681
-16:09:01 INFO: Percentile 99.0%: 2.681
-16:09:01 INFO: Percentile 99.9%: 2.681
-16:09:01 INFO: Percentile 100.0%: 2.681
-16:09:01 INFO: +-------+--------+---------+----------+-------+
-16:09:01 INFO: | label | status | success | avg time | error |
-16:09:01 INFO: +-------+--------+---------+----------+-------+
-16:09:01 INFO: | Test  |   OK   | 100.00% |  2.680   |       |
-16:09:01 INFO: +-------+--------+---------+----------+-------+
-16:09:01 INFO: Artifacts dir: C:\temp\delete
-16:09:01 INFO: Done performing with code: 0
-16:09:02 INFO: Taurus CLI Tool v1.12.0
-16:09:02 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\submit\\submit-by-css.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
-16:09:02 INFO: Configuring...
-16:09:02 INFO: Artifacts dir: C:\temp\delete
-16:09:02 INFO: Preparing...
-16:09:02 INFO: Starting...
-16:09:02 INFO: Waiting for results...
-16:09:04 WARNING: Please wait for graceful shutdown...
-16:09:04 INFO: Shutting down...
-16:09:05 INFO: Terminating process PID 6552 with signal 15 (59 tries left)
-16:09:06 INFO: Terminating process PID 6552 with signal 15 (58 tries left)
-16:09:06 WARNING: Keyboard interrupt
-16:09:06 INFO: Post-processing...
-16:09:06 INFO: Test duration: 0:00:04
-16:09:06 INFO: Test duration: 0:00:04
-16:09:06 INFO: Artifacts dir: C:\temp\delete
-16:09:06 WARNING: Done performing with code: 1
+16:09:46 INFO: Taurus CLI Tool v1.12.0
+16:09:46 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\assert\\assert-text-by-id.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:09:46 INFO: Configuring...
+16:09:46 INFO: Artifacts dir: C:\temp\delete
+16:09:46 INFO: Preparing...
+16:09:46 INFO: Starting...
+16:09:46 INFO: Waiting for results...
+16:09:56 WARNING: Please wait for graceful shutdown...
+16:09:56 INFO: Shutting down...
+16:09:56 INFO: Post-processing...
+16:09:57 INFO: Test duration: 0:00:10
+16:09:57 INFO: Samples count: 1, 0.00% failures
+16:09:57 INFO: Average times: total 0.453, latency 0.000, connect 0.000
+16:09:57 INFO: Percentile 0.0%: 0.453
+16:09:57 INFO: Percentile 50.0%: 0.453
+16:09:57 INFO: Percentile 90.0%: 0.453
+16:09:57 INFO: Percentile 95.0%: 0.453
+16:09:57 INFO: Percentile 99.0%: 0.453
+16:09:57 INFO: Percentile 99.9%: 0.453
+16:09:57 INFO: Percentile 100.0%: 0.453
+16:09:57 INFO: Test duration: 0:00:10
+16:09:57 INFO: Samples count: 1, 0.00% failures
+16:09:57 INFO: Average times: total 0.453, latency 0.000, connect 0.000
+16:09:57 INFO: Percentile 0.0%: 0.453
+16:09:57 INFO: Percentile 50.0%: 0.453
+16:09:57 INFO: Percentile 90.0%: 0.453
+16:09:57 INFO: Percentile 95.0%: 0.453
+16:09:57 INFO: Percentile 99.0%: 0.453
+16:09:57 INFO: Percentile 99.9%: 0.453
+16:09:57 INFO: Percentile 100.0%: 0.453
+16:09:57 INFO: +-------+--------+---------+----------+-------+
+16:09:57 INFO: | label | status | success | avg time | error |
+16:09:57 INFO: +-------+--------+---------+----------+-------+
+16:09:57 INFO: | Test  |   OK   | 100.00% |  0.453   |       |
+16:09:57 INFO: +-------+--------+---------+----------+-------+
+16:09:57 INFO: Artifacts dir: C:\temp\delete
+16:09:57 INFO: Done performing with code: 0
+16:09:57 INFO: Taurus CLI Tool v1.12.0
+16:09:57 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\click-and-double-click\\click-at.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:09:57 INFO: Configuring...
+16:09:57 INFO: Artifacts dir: C:\temp\delete
+16:09:57 INFO: Preparing...
+16:09:57 INFO: Starting...
+16:09:57 INFO: Waiting for results...
+16:10:12 INFO: Current: 0 vu	1 succ	0 fail	2.071 avg rt	/	Cumulative: 2.071 avg rt, 0% failures
+16:10:12 WARNING: Please wait for graceful shutdown...
+16:10:12 INFO: Shutting down...
+16:10:12 INFO: Post-processing...
+16:10:12 INFO: Changed data analysis delay to 5s
+16:10:12 INFO: Test duration: 0:00:15
+16:10:12 INFO: Samples count: 5, 0.00% failures
+16:10:12 INFO: Average times: total 1.233, latency 0.000, connect 0.000
+16:10:12 INFO: Percentile 0.0%: 0.217
+16:10:12 INFO: Percentile 50.0%: 0.664
+16:10:12 INFO: Percentile 90.0%: 2.555
+16:10:12 INFO: Percentile 95.0%: 2.555
+16:10:12 INFO: Percentile 99.0%: 2.555
+16:10:12 INFO: Percentile 99.9%: 2.555
+16:10:12 INFO: Percentile 100.0%: 2.555
+16:10:12 INFO: Test duration: 0:00:15
+16:10:12 INFO: Samples count: 5, 0.00% failures
+16:10:12 INFO: Average times: total 1.233, latency 0.000, connect 0.000
+16:10:12 INFO: Percentile 0.0%: 0.217
+16:10:12 INFO: Percentile 50.0%: 0.664
+16:10:12 INFO: Percentile 90.0%: 2.555
+16:10:12 INFO: Percentile 95.0%: 2.555
+16:10:12 INFO: Percentile 99.0%: 2.555
+16:10:12 INFO: Percentile 99.9%: 2.555
+16:10:12 INFO: Percentile 100.0%: 2.555
+16:10:12 INFO: +------------+--------+---------+----------+-------+
+16:10:12 INFO: | label      | status | success | avg time | error |
+16:10:12 INFO: +------------+--------+---------+----------+-------+
+16:10:12 INFO: | Test       |   OK   | 100.00% |  2.071   |       |
+16:10:12 INFO: | byCSS      |   OK   | 100.00% |  0.664   |       |
+16:10:12 INFO: | byLinkTest |   OK   | 100.00% |  2.555   |       |
+16:10:12 INFO: | byName     |   OK   | 100.00% |  0.217   |       |
+16:10:12 INFO: | byXPath    |   OK   | 100.00% |  0.659   |       |
+16:10:12 INFO: +------------+--------+---------+----------+-------+
+16:10:12 INFO: Artifacts dir: C:\temp\delete
+16:10:12 INFO: Done performing with code: 0
+16:10:13 INFO: Taurus CLI Tool v1.12.0
+16:10:13 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\click-and-double-click\\click-by-id.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:10:13 INFO: Configuring...
+16:10:13 INFO: Artifacts dir: C:\temp\delete
+16:10:13 INFO: Preparing...
+16:10:13 INFO: Starting...
+16:10:13 INFO: Waiting for results...
+16:10:23 WARNING: Please wait for graceful shutdown...
+16:10:23 INFO: Shutting down...
+16:10:23 INFO: Post-processing...
+16:10:23 INFO: Test duration: 0:00:10
+16:10:23 INFO: Samples count: 1, 0.00% failures
+16:10:23 INFO: Average times: total 0.450, latency 0.000, connect 0.000
+16:10:23 INFO: Percentile 0.0%: 0.450
+16:10:23 INFO: Percentile 50.0%: 0.450
+16:10:23 INFO: Percentile 90.0%: 0.450
+16:10:23 INFO: Percentile 95.0%: 0.450
+16:10:23 INFO: Percentile 99.0%: 0.450
+16:10:23 INFO: Percentile 99.9%: 0.450
+16:10:23 INFO: Percentile 100.0%: 0.450
+16:10:23 INFO: Test duration: 0:00:10
+16:10:23 INFO: Samples count: 1, 0.00% failures
+16:10:23 INFO: Average times: total 0.450, latency 0.000, connect 0.000
+16:10:23 INFO: Percentile 0.0%: 0.450
+16:10:23 INFO: Percentile 50.0%: 0.450
+16:10:23 INFO: Percentile 90.0%: 0.450
+16:10:23 INFO: Percentile 95.0%: 0.450
+16:10:23 INFO: Percentile 99.0%: 0.450
+16:10:23 INFO: Percentile 99.9%: 0.450
+16:10:23 INFO: Percentile 100.0%: 0.450
+16:10:23 INFO: +-------+--------+---------+----------+-------+
+16:10:23 INFO: | label | status | success | avg time | error |
+16:10:23 INFO: +-------+--------+---------+----------+-------+
+16:10:23 INFO: | Test  |   OK   | 100.00% |  0.450   |       |
+16:10:23 INFO: +-------+--------+---------+----------+-------+
+16:10:23 INFO: Artifacts dir: C:\temp\delete
+16:10:23 INFO: Done performing with code: 0
+16:10:24 INFO: Taurus CLI Tool v1.12.0
+16:10:24 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\click-and-double-click\\double-click-at-link-text.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:10:24 INFO: Configuring...
+16:10:24 INFO: Artifacts dir: C:\temp\delete
+16:10:24 INFO: Preparing...
+16:10:24 INFO: Starting...
+16:10:24 INFO: Waiting for results...
+16:10:37 WARNING: Please wait for graceful shutdown...
+16:10:37 INFO: Shutting down...
+16:10:37 INFO: Post-processing...
+16:10:37 INFO: Test duration: 0:00:13
+16:10:37 INFO: Samples count: 1, 0.00% failures
+16:10:37 INFO: Average times: total 4.045, latency 0.000, connect 0.000
+16:10:37 INFO: Percentile 0.0%: 4.044
+16:10:37 INFO: Percentile 50.0%: 4.045
+16:10:37 INFO: Percentile 90.0%: 4.045
+16:10:37 INFO: Percentile 95.0%: 4.045
+16:10:37 INFO: Percentile 99.0%: 4.045
+16:10:37 INFO: Percentile 99.9%: 4.045
+16:10:37 INFO: Percentile 100.0%: 4.045
+16:10:37 INFO: Test duration: 0:00:13
+16:10:37 INFO: Samples count: 1, 0.00% failures
+16:10:37 INFO: Average times: total 4.045, latency 0.000, connect 0.000
+16:10:37 INFO: Percentile 0.0%: 4.044
+16:10:37 INFO: Percentile 50.0%: 4.045
+16:10:37 INFO: Percentile 90.0%: 4.045
+16:10:37 INFO: Percentile 95.0%: 4.045
+16:10:37 INFO: Percentile 99.0%: 4.045
+16:10:37 INFO: Percentile 99.9%: 4.045
+16:10:37 INFO: Percentile 100.0%: 4.045
+16:10:37 INFO: +-------+--------+---------+----------+-------+
+16:10:37 INFO: | label | status | success | avg time | error |
+16:10:37 INFO: +-------+--------+---------+----------+-------+
+16:10:37 INFO: | Test  |   OK   | 100.00% |  4.045   |       |
+16:10:37 INFO: +-------+--------+---------+----------+-------+
+16:10:37 INFO: Artifacts dir: C:\temp\delete
+16:10:37 INFO: Done performing with code: 0
+16:10:37 INFO: Taurus CLI Tool v1.12.0
+16:10:37 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\click-and-double-click\\double-click-at.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:10:37 INFO: Configuring...
+16:10:37 INFO: Artifacts dir: C:\temp\delete
+16:10:37 INFO: Preparing...
+16:10:38 INFO: Starting...
+16:10:38 INFO: Waiting for results...
+16:10:48 WARNING: Please wait for graceful shutdown...
+16:10:48 INFO: Shutting down...
+16:10:48 INFO: Post-processing...
+16:10:48 INFO: Test duration: 0:00:10
+16:10:48 INFO: Samples count: 1, 0.00% failures
+16:10:48 INFO: Average times: total 0.368, latency 0.000, connect 0.000
+16:10:48 INFO: Percentile 0.0%: 0.368
+16:10:48 INFO: Percentile 50.0%: 0.368
+16:10:48 INFO: Percentile 90.0%: 0.368
+16:10:48 INFO: Percentile 95.0%: 0.368
+16:10:48 INFO: Percentile 99.0%: 0.368
+16:10:48 INFO: Percentile 99.9%: 0.368
+16:10:48 INFO: Percentile 100.0%: 0.368
+16:10:48 INFO: Test duration: 0:00:10
+16:10:48 INFO: Samples count: 1, 0.00% failures
+16:10:48 INFO: Average times: total 0.368, latency 0.000, connect 0.000
+16:10:48 INFO: Percentile 0.0%: 0.368
+16:10:48 INFO: Percentile 50.0%: 0.368
+16:10:48 INFO: Percentile 90.0%: 0.368
+16:10:48 INFO: Percentile 95.0%: 0.368
+16:10:48 INFO: Percentile 99.0%: 0.368
+16:10:48 INFO: Percentile 99.9%: 0.368
+16:10:48 INFO: Percentile 100.0%: 0.368
+16:10:48 INFO: +-------+--------+---------+----------+-------+
+16:10:48 INFO: | label | status | success | avg time | error |
+16:10:48 INFO: +-------+--------+---------+----------+-------+
+16:10:48 INFO: | Test  |   OK   | 100.00% |  0.368   |       |
+16:10:48 INFO: +-------+--------+---------+----------+-------+
+16:10:48 INFO: Artifacts dir: C:\temp\delete
+16:10:48 INFO: Done performing with code: 0
+16:10:48 INFO: Taurus CLI Tool v1.12.0
+16:10:48 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\drag-and-drop\\drag-and-drop.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:10:48 INFO: Configuring...
+16:10:48 INFO: Artifacts dir: C:\temp\delete
+16:10:48 INFO: Preparing...
+16:10:48 INFO: Starting...
+16:10:48 INFO: Waiting for results...
+16:11:02 WARNING: Please wait for graceful shutdown...
+16:11:02 INFO: Shutting down...
+16:11:03 INFO: Post-processing...
+16:11:03 INFO: Test duration: 0:00:14
+16:11:03 INFO: Samples count: 1, 0.00% failures
+16:11:03 INFO: Average times: total 4.626, latency 0.000, connect 0.000
+16:11:03 INFO: Percentile 0.0%: 4.624
+16:11:03 INFO: Percentile 50.0%: 4.627
+16:11:03 INFO: Percentile 90.0%: 4.627
+16:11:03 INFO: Percentile 95.0%: 4.627
+16:11:03 INFO: Percentile 99.0%: 4.627
+16:11:03 INFO: Percentile 99.9%: 4.627
+16:11:03 INFO: Percentile 100.0%: 4.627
+16:11:03 INFO: Test duration: 0:00:14
+16:11:03 INFO: Samples count: 1, 0.00% failures
+16:11:03 INFO: Average times: total 4.626, latency 0.000, connect 0.000
+16:11:03 INFO: Percentile 0.0%: 4.624
+16:11:03 INFO: Percentile 50.0%: 4.627
+16:11:03 INFO: Percentile 90.0%: 4.627
+16:11:03 INFO: Percentile 95.0%: 4.627
+16:11:03 INFO: Percentile 99.0%: 4.627
+16:11:03 INFO: Percentile 99.9%: 4.627
+16:11:03 INFO: Percentile 100.0%: 4.627
+16:11:03 INFO: +-------+--------+---------+----------+-------+
+16:11:03 INFO: | label | status | success | avg time | error |
+16:11:03 INFO: +-------+--------+---------+----------+-------+
+16:11:03 INFO: | Test  |   OK   | 100.00% |  4.626   |       |
+16:11:03 INFO: +-------+--------+---------+----------+-------+
+16:11:03 INFO: Artifacts dir: C:\temp\delete
+16:11:03 INFO: Done performing with code: 0
+16:11:03 INFO: Taurus CLI Tool v1.12.0
+16:11:03 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\edit-content\\edit-content.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:11:03 INFO: Configuring...
+16:11:03 INFO: Artifacts dir: C:\temp\delete
+16:11:03 INFO: Preparing...
+16:11:03 INFO: Starting...
+16:11:03 INFO: Waiting for results...
+16:11:15 WARNING: Please wait for graceful shutdown...
+16:11:15 INFO: Shutting down...
+16:11:15 INFO: Post-processing...
+16:11:15 INFO: Test duration: 0:00:12
+16:11:15 INFO: Samples count: 1, 100.00% failures
+16:11:15 INFO: Average times: total 2.389, latency 0.000, connect 0.000
+16:11:15 INFO: Percentile 0.0%: 2.388
+16:11:15 INFO: Percentile 50.0%: 2.389
+16:11:15 INFO: Percentile 90.0%: 2.389
+16:11:15 INFO: Percentile 95.0%: 2.389
+16:11:15 INFO: Percentile 99.0%: 2.389
+16:11:15 INFO: Percentile 99.9%: 2.389
+16:11:15 INFO: Percentile 100.0%: 2.389
+16:11:15 INFO: Test duration: 0:00:12
+16:11:15 INFO: Samples count: 1, 100.00% failures
+16:11:15 INFO: Average times: total 2.389, latency 0.000, connect 0.000
+16:11:15 INFO: Percentile 0.0%: 2.388
+16:11:15 INFO: Percentile 50.0%: 2.389
+16:11:15 INFO: Percentile 90.0%: 2.389
+16:11:15 INFO: Percentile 95.0%: 2.389
+16:11:15 INFO: Percentile 99.0%: 2.389
+16:11:15 INFO: Percentile 99.9%: 2.389
+16:11:15 INFO: Percentile 100.0%: 2.389
+16:11:15 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
+16:11:15 INFO: | label | status | success | avg time | error                                                       |
+16:11:15 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
+16:11:15 INFO: | Test  |  FAIL  |  0.00%  |  2.389   | WebDriverException: Message: unknown error: Failed to       |
+16:11:15 INFO: |       |        |         |          | execute 'getComputedStyle' on 'Window': parameter 1 is not  |
+16:11:15 INFO: |       |        |         |          | of type 'Element'.    (Session info: chrome=67.0.3396.87)   |
+16:11:15 INFO: |       |        |         |          | (Driver info: chromedriver=2.39.562718                      |
+16:11:15 INFO: |       |        |         |          | (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows |
+16:11:15 INFO: |       |        |         |          | NT 10.0.17134 x86_64)                                       |
+16:11:15 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
+16:11:15 INFO: Artifacts dir: C:\temp\delete
+16:11:15 INFO: Done performing with code: 0
+16:11:16 INFO: Taurus CLI Tool v1.12.0
+16:11:16 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\frames\\switch-frame.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:11:16 INFO: Configuring...
+16:11:16 INFO: Artifacts dir: C:\temp\delete
+16:11:16 INFO: Preparing...
+16:11:16 INFO: Starting...
+16:11:16 INFO: Waiting for results...
+16:11:26 WARNING: Please wait for graceful shutdown...
+16:11:26 INFO: Shutting down...
+16:11:26 INFO: Post-processing...
+16:11:26 INFO: Test duration: 0:00:10
+16:11:26 INFO: Samples count: 1, 0.00% failures
+16:11:26 INFO: Average times: total 0.861, latency 0.000, connect 0.000
+16:11:26 INFO: Percentile 0.0%: 0.861
+16:11:26 INFO: Percentile 50.0%: 0.861
+16:11:26 INFO: Percentile 90.0%: 0.861
+16:11:26 INFO: Percentile 95.0%: 0.861
+16:11:26 INFO: Percentile 99.0%: 0.861
+16:11:26 INFO: Percentile 99.9%: 0.861
+16:11:26 INFO: Percentile 100.0%: 0.861
+16:11:26 INFO: Test duration: 0:00:10
+16:11:26 INFO: Samples count: 1, 0.00% failures
+16:11:26 INFO: Average times: total 0.861, latency 0.000, connect 0.000
+16:11:26 INFO: Percentile 0.0%: 0.861
+16:11:26 INFO: Percentile 50.0%: 0.861
+16:11:26 INFO: Percentile 90.0%: 0.861
+16:11:26 INFO: Percentile 95.0%: 0.861
+16:11:26 INFO: Percentile 99.0%: 0.861
+16:11:26 INFO: Percentile 99.9%: 0.861
+16:11:26 INFO: Percentile 100.0%: 0.861
+16:11:26 INFO: +-------+--------+---------+----------+-------+
+16:11:26 INFO: | label | status | success | avg time | error |
+16:11:26 INFO: +-------+--------+---------+----------+-------+
+16:11:26 INFO: | Test  |   OK   | 100.00% |  0.861   |       |
+16:11:26 INFO: +-------+--------+---------+----------+-------+
+16:11:26 INFO: Artifacts dir: C:\temp\delete
+16:11:26 INFO: Done performing with code: 0
+16:11:27 INFO: Taurus CLI Tool v1.12.0
+16:11:27 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\go-and-url\\go.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:11:27 INFO: Configuring...
+16:11:27 INFO: Artifacts dir: C:\temp\delete
+16:11:27 INFO: Preparing...
+16:11:27 INFO: Starting...
+16:11:27 INFO: Waiting for results...
+16:11:39 WARNING: Please wait for graceful shutdown...
+16:11:39 INFO: Shutting down...
+16:11:39 INFO: Post-processing...
+16:11:39 INFO: Test duration: 0:00:12
+16:11:39 INFO: Samples count: 1, 0.00% failures
+16:11:39 INFO: Average times: total 2.521, latency 0.000, connect 0.000
+16:11:39 INFO: Percentile 0.0%: 2.520
+16:11:39 INFO: Percentile 50.0%: 2.521
+16:11:39 INFO: Percentile 90.0%: 2.521
+16:11:39 INFO: Percentile 95.0%: 2.521
+16:11:39 INFO: Percentile 99.0%: 2.521
+16:11:39 INFO: Percentile 99.9%: 2.521
+16:11:39 INFO: Percentile 100.0%: 2.521
+16:11:39 INFO: Test duration: 0:00:12
+16:11:39 INFO: Samples count: 1, 0.00% failures
+16:11:39 INFO: Average times: total 2.521, latency 0.000, connect 0.000
+16:11:39 INFO: Percentile 0.0%: 2.520
+16:11:39 INFO: Percentile 50.0%: 2.521
+16:11:39 INFO: Percentile 90.0%: 2.521
+16:11:39 INFO: Percentile 95.0%: 2.521
+16:11:39 INFO: Percentile 99.0%: 2.521
+16:11:39 INFO: Percentile 99.9%: 2.521
+16:11:39 INFO: Percentile 100.0%: 2.521
+16:11:39 INFO: +-------+--------+---------+----------+-------+
+16:11:39 INFO: | label | status | success | avg time | error |
+16:11:39 INFO: +-------+--------+---------+----------+-------+
+16:11:39 INFO: | Test  |   OK   | 100.00% |  2.521   |       |
+16:11:39 INFO: +-------+--------+---------+----------+-------+
+16:11:39 INFO: Artifacts dir: C:\temp\delete
+16:11:39 INFO: Done performing with code: 0
+16:11:39 INFO: Taurus CLI Tool v1.12.0
+16:11:39 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\go-and-url\\url.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:11:39 INFO: Configuring...
+16:11:39 INFO: Artifacts dir: C:\temp\delete
+16:11:39 INFO: Preparing...
+16:11:40 INFO: Starting...
+16:11:40 INFO: Waiting for results...
+16:11:51 WARNING: Please wait for graceful shutdown...
+16:11:51 INFO: Shutting down...
+16:11:51 INFO: Post-processing...
+16:11:51 INFO: Test duration: 0:00:11
+16:11:51 INFO: Samples count: 1, 0.00% failures
+16:11:51 INFO: Average times: total 2.027, latency 0.000, connect 0.000
+16:11:51 INFO: Percentile 0.0%: 2.027
+16:11:51 INFO: Percentile 50.0%: 2.027
+16:11:51 INFO: Percentile 90.0%: 2.027
+16:11:51 INFO: Percentile 95.0%: 2.027
+16:11:51 INFO: Percentile 99.0%: 2.027
+16:11:51 INFO: Percentile 99.9%: 2.027
+16:11:51 INFO: Percentile 100.0%: 2.027
+16:11:51 INFO: Test duration: 0:00:11
+16:11:51 INFO: Samples count: 1, 0.00% failures
+16:11:51 INFO: Average times: total 2.027, latency 0.000, connect 0.000
+16:11:51 INFO: Percentile 0.0%: 2.027
+16:11:51 INFO: Percentile 50.0%: 2.027
+16:11:51 INFO: Percentile 90.0%: 2.027
+16:11:51 INFO: Percentile 95.0%: 2.027
+16:11:51 INFO: Percentile 99.0%: 2.027
+16:11:51 INFO: Percentile 99.9%: 2.027
+16:11:51 INFO: Percentile 100.0%: 2.027
+16:11:51 INFO: +-------+--------+---------+----------+-------+
+16:11:51 INFO: | label | status | success | avg time | error |
+16:11:51 INFO: +-------+--------+---------+----------+-------+
+16:11:51 INFO: | Test  |   OK   | 100.00% |  2.027   |       |
+16:11:51 INFO: +-------+--------+---------+----------+-------+
+16:11:51 INFO: Artifacts dir: C:\temp\delete
+16:11:51 INFO: Done performing with code: 0
+16:11:51 INFO: Taurus CLI Tool v1.12.0
+16:11:51 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\implicit-and-explicit-waits\\pause-for.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:11:51 INFO: Configuring...
+16:11:51 INFO: Artifacts dir: C:\temp\delete
+16:11:51 INFO: Preparing...
+16:11:51 INFO: Starting...
+16:11:51 INFO: Waiting for results...
+16:12:12 WARNING: Please wait for graceful shutdown...
+16:12:12 INFO: Shutting down...
+16:12:12 INFO: Post-processing...
+16:12:12 INFO: Test duration: 0:00:21
+16:12:12 INFO: Samples count: 1, 0.00% failures
+16:12:12 INFO: Average times: total 11.040, latency 0.000, connect 0.000
+16:12:12 INFO: Percentile 0.0%: 11.040
+16:12:12 INFO: Percentile 50.0%: 11.047
+16:12:12 INFO: Percentile 90.0%: 11.047
+16:12:12 INFO: Percentile 95.0%: 11.047
+16:12:12 INFO: Percentile 99.0%: 11.047
+16:12:12 INFO: Percentile 99.9%: 11.047
+16:12:12 INFO: Percentile 100.0%: 11.047
+16:12:12 INFO: Test duration: 0:00:21
+16:12:12 INFO: Samples count: 1, 0.00% failures
+16:12:12 INFO: Average times: total 11.040, latency 0.000, connect 0.000
+16:12:12 INFO: Percentile 0.0%: 11.040
+16:12:12 INFO: Percentile 50.0%: 11.047
+16:12:12 INFO: Percentile 90.0%: 11.047
+16:12:12 INFO: Percentile 95.0%: 11.047
+16:12:12 INFO: Percentile 99.0%: 11.047
+16:12:12 INFO: Percentile 99.9%: 11.047
+16:12:12 INFO: Percentile 100.0%: 11.047
+16:12:12 INFO: +-------+--------+---------+----------+-------+
+16:12:12 INFO: | label | status | success | avg time | error |
+16:12:12 INFO: +-------+--------+---------+----------+-------+
+16:12:12 INFO: | Test  |   OK   | 100.00% |  11.040  |       |
+16:12:12 INFO: +-------+--------+---------+----------+-------+
+16:12:12 INFO: Artifacts dir: C:\temp\delete
+16:12:12 INFO: Done performing with code: 0
+16:12:12 INFO: Taurus CLI Tool v1.12.0
+16:12:12 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\mouse\\mouse-down-at-css.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:12:12 INFO: Configuring...
+16:12:12 INFO: Artifacts dir: C:\temp\delete
+16:12:12 INFO: Preparing...
+16:12:12 INFO: Starting...
+16:12:12 INFO: Waiting for results...
+16:12:22 WARNING: Please wait for graceful shutdown...
+16:12:22 INFO: Shutting down...
+16:12:22 INFO: Post-processing...
+16:12:22 INFO: Test duration: 0:00:10
+16:12:22 INFO: Samples count: 1, 0.00% failures
+16:12:22 INFO: Average times: total 0.457, latency 0.000, connect 0.000
+16:12:22 INFO: Percentile 0.0%: 0.457
+16:12:22 INFO: Percentile 50.0%: 0.457
+16:12:22 INFO: Percentile 90.0%: 0.457
+16:12:22 INFO: Percentile 95.0%: 0.457
+16:12:22 INFO: Percentile 99.0%: 0.457
+16:12:22 INFO: Percentile 99.9%: 0.457
+16:12:22 INFO: Percentile 100.0%: 0.457
+16:12:22 INFO: Test duration: 0:00:10
+16:12:22 INFO: Samples count: 1, 0.00% failures
+16:12:22 INFO: Average times: total 0.457, latency 0.000, connect 0.000
+16:12:22 INFO: Percentile 0.0%: 0.457
+16:12:22 INFO: Percentile 50.0%: 0.457
+16:12:22 INFO: Percentile 90.0%: 0.457
+16:12:22 INFO: Percentile 95.0%: 0.457
+16:12:22 INFO: Percentile 99.0%: 0.457
+16:12:22 INFO: Percentile 99.9%: 0.457
+16:12:22 INFO: Percentile 100.0%: 0.457
+16:12:22 INFO: +-------+--------+---------+----------+-------+
+16:12:22 INFO: | label | status | success | avg time | error |
+16:12:22 INFO: +-------+--------+---------+----------+-------+
+16:12:22 INFO: | Test  |   OK   | 100.00% |  0.457   |       |
+16:12:22 INFO: +-------+--------+---------+----------+-------+
+16:12:22 INFO: Artifacts dir: C:\temp\delete
+16:12:22 INFO: Done performing with code: 0
+16:12:23 INFO: Taurus CLI Tool v1.12.0
+16:12:23 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\mouse\\mouse-down-at-xpath.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:12:23 INFO: Configuring...
+16:12:23 INFO: Artifacts dir: C:\temp\delete
+16:12:23 INFO: Preparing...
+16:12:23 INFO: Starting...
+16:12:23 INFO: Waiting for results...
+16:12:32 WARNING: Please wait for graceful shutdown...
+16:12:32 INFO: Shutting down...
+16:12:32 INFO: Post-processing...
+16:12:32 INFO: Test duration: 0:00:09
+16:12:32 INFO: Samples count: 1, 0.00% failures
+16:12:32 INFO: Average times: total 0.296, latency 0.000, connect 0.000
+16:12:32 INFO: Percentile 0.0%: 0.296
+16:12:32 INFO: Percentile 50.0%: 0.296
+16:12:32 INFO: Percentile 90.0%: 0.296
+16:12:32 INFO: Percentile 95.0%: 0.296
+16:12:32 INFO: Percentile 99.0%: 0.296
+16:12:32 INFO: Percentile 99.9%: 0.296
+16:12:32 INFO: Percentile 100.0%: 0.296
+16:12:32 INFO: Test duration: 0:00:09
+16:12:32 INFO: Samples count: 1, 0.00% failures
+16:12:32 INFO: Average times: total 0.296, latency 0.000, connect 0.000
+16:12:32 INFO: Percentile 0.0%: 0.296
+16:12:32 INFO: Percentile 50.0%: 0.296
+16:12:32 INFO: Percentile 90.0%: 0.296
+16:12:32 INFO: Percentile 95.0%: 0.296
+16:12:32 INFO: Percentile 99.0%: 0.296
+16:12:32 INFO: Percentile 99.9%: 0.296
+16:12:32 INFO: Percentile 100.0%: 0.296
+16:12:32 INFO: +-------+--------+---------+----------+-------+
+16:12:32 INFO: | label | status | success | avg time | error |
+16:12:32 INFO: +-------+--------+---------+----------+-------+
+16:12:32 INFO: | Test  |   OK   | 100.00% |  0.296   |       |
+16:12:32 INFO: +-------+--------+---------+----------+-------+
+16:12:32 INFO: Artifacts dir: C:\temp\delete
+16:12:32 INFO: Done performing with code: 0
+16:12:33 INFO: Taurus CLI Tool v1.12.0
+16:12:33 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\mouse\\mouse-evt.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:12:33 INFO: Configuring...
+16:12:33 INFO: Artifacts dir: C:\temp\delete
+16:12:33 INFO: Preparing...
+16:12:33 INFO: Starting...
+16:12:33 INFO: Waiting for results...
+16:12:45 WARNING: Please wait for graceful shutdown...
+16:12:45 INFO: Shutting down...
+16:12:45 INFO: Post-processing...
+16:12:45 INFO: Test duration: 0:00:12
+16:12:45 INFO: Samples count: 1, 0.00% failures
+16:12:45 INFO: Average times: total 2.417, latency 0.000, connect 0.000
+16:12:45 INFO: Percentile 0.0%: 2.416
+16:12:45 INFO: Percentile 50.0%: 2.417
+16:12:45 INFO: Percentile 90.0%: 2.417
+16:12:45 INFO: Percentile 95.0%: 2.417
+16:12:45 INFO: Percentile 99.0%: 2.417
+16:12:45 INFO: Percentile 99.9%: 2.417
+16:12:45 INFO: Percentile 100.0%: 2.417
+16:12:45 INFO: Test duration: 0:00:12
+16:12:45 INFO: Samples count: 1, 0.00% failures
+16:12:45 INFO: Average times: total 2.417, latency 0.000, connect 0.000
+16:12:45 INFO: Percentile 0.0%: 2.416
+16:12:45 INFO: Percentile 50.0%: 2.417
+16:12:45 INFO: Percentile 90.0%: 2.417
+16:12:45 INFO: Percentile 95.0%: 2.417
+16:12:45 INFO: Percentile 99.0%: 2.417
+16:12:45 INFO: Percentile 99.9%: 2.417
+16:12:45 INFO: Percentile 100.0%: 2.417
+16:12:45 INFO: +-------+--------+---------+----------+-------+
+16:12:45 INFO: | label | status | success | avg time | error |
+16:12:45 INFO: +-------+--------+---------+----------+-------+
+16:12:45 INFO: | Test  |   OK   | 100.00% |  2.417   |       |
+16:12:45 INFO: +-------+--------+---------+----------+-------+
+16:12:45 INFO: Artifacts dir: C:\temp\delete
+16:12:45 INFO: Done performing with code: 0
+16:12:45 INFO: Taurus CLI Tool v1.12.0
+16:12:45 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\script\\script-eval.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:12:45 INFO: Configuring...
+16:12:45 INFO: Artifacts dir: C:\temp\delete
+16:12:45 INFO: Preparing...
+16:12:46 INFO: Starting...
+16:12:46 INFO: Waiting for results...
+16:13:01 WARNING: Please wait for graceful shutdown...
+16:13:01 INFO: Shutting down...
+16:13:01 INFO: Post-processing...
+16:13:01 INFO: Test duration: 0:00:15
+16:13:01 INFO: Samples count: 1, 0.00% failures
+16:13:01 INFO: Average times: total 5.542, latency 0.000, connect 0.000
+16:13:01 INFO: Percentile 0.0%: 5.540
+16:13:01 INFO: Percentile 50.0%: 5.543
+16:13:01 INFO: Percentile 90.0%: 5.543
+16:13:01 INFO: Percentile 95.0%: 5.543
+16:13:01 INFO: Percentile 99.0%: 5.543
+16:13:01 INFO: Percentile 99.9%: 5.543
+16:13:01 INFO: Percentile 100.0%: 5.543
+16:13:01 INFO: Test duration: 0:00:15
+16:13:01 INFO: Samples count: 1, 0.00% failures
+16:13:01 INFO: Average times: total 5.542, latency 0.000, connect 0.000
+16:13:01 INFO: Percentile 0.0%: 5.540
+16:13:01 INFO: Percentile 50.0%: 5.543
+16:13:01 INFO: Percentile 90.0%: 5.543
+16:13:01 INFO: Percentile 95.0%: 5.543
+16:13:01 INFO: Percentile 99.0%: 5.543
+16:13:01 INFO: Percentile 99.9%: 5.543
+16:13:01 INFO: Percentile 100.0%: 5.543
+16:13:01 INFO: +-------+--------+---------+----------+-------+
+16:13:01 INFO: | label | status | success | avg time | error |
+16:13:01 INFO: +-------+--------+---------+----------+-------+
+16:13:01 INFO: | Test  |   OK   | 100.00% |  5.542   |       |
+16:13:01 INFO: +-------+--------+---------+----------+-------+
+16:13:01 INFO: Artifacts dir: C:\temp\delete
+16:13:01 INFO: Done performing with code: 0
+16:13:01 INFO: Taurus CLI Tool v1.12.0
+16:13:01 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\select\\select-by\\select-by.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:13:01 INFO: Configuring...
+16:13:01 INFO: Artifacts dir: C:\temp\delete
+16:13:01 INFO: Preparing...
+16:13:01 INFO: Starting...
+16:13:01 INFO: Waiting for results...
+16:13:12 WARNING: Please wait for graceful shutdown...
+16:13:12 INFO: Shutting down...
+16:13:12 INFO: Post-processing...
+16:13:12 INFO: Test duration: 0:00:11
+16:13:12 INFO: Samples count: 1, 0.00% failures
+16:13:12 INFO: Average times: total 1.233, latency 0.000, connect 0.000
+16:13:12 INFO: Percentile 0.0%: 1.233
+16:13:12 INFO: Percentile 50.0%: 1.233
+16:13:12 INFO: Percentile 90.0%: 1.233
+16:13:12 INFO: Percentile 95.0%: 1.233
+16:13:12 INFO: Percentile 99.0%: 1.233
+16:13:12 INFO: Percentile 99.9%: 1.233
+16:13:12 INFO: Percentile 100.0%: 1.233
+16:13:12 INFO: Test duration: 0:00:11
+16:13:12 INFO: Samples count: 1, 0.00% failures
+16:13:12 INFO: Average times: total 1.233, latency 0.000, connect 0.000
+16:13:12 INFO: Percentile 0.0%: 1.233
+16:13:12 INFO: Percentile 50.0%: 1.233
+16:13:12 INFO: Percentile 90.0%: 1.233
+16:13:12 INFO: Percentile 95.0%: 1.233
+16:13:12 INFO: Percentile 99.0%: 1.233
+16:13:12 INFO: Percentile 99.9%: 1.233
+16:13:12 INFO: Percentile 100.0%: 1.233
+16:13:12 INFO: +-------+--------+---------+----------+-------+
+16:13:12 INFO: | label | status | success | avg time | error |
+16:13:12 INFO: +-------+--------+---------+----------+-------+
+16:13:12 INFO: | Test  |   OK   | 100.00% |  1.233   |       |
+16:13:12 INFO: +-------+--------+---------+----------+-------+
+16:13:12 INFO: Artifacts dir: C:\temp\delete
+16:13:12 INFO: Done performing with code: 0
+16:13:12 INFO: Taurus CLI Tool v1.12.0
+16:13:12 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\select\\select-by-name\\select-by-name.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:13:12 INFO: Configuring...
+16:13:12 INFO: Artifacts dir: C:\temp\delete
+16:13:12 INFO: Preparing...
+16:13:12 INFO: Starting...
+16:13:12 INFO: Waiting for results...
+16:13:24 WARNING: Please wait for graceful shutdown...
+16:13:24 INFO: Shutting down...
+16:13:24 INFO: Post-processing...
+16:13:24 INFO: Test duration: 0:00:12
+16:13:24 INFO: Samples count: 1, 0.00% failures
+16:13:24 INFO: Average times: total 2.576, latency 0.000, connect 0.000
+16:13:24 INFO: Percentile 0.0%: 2.576
+16:13:24 INFO: Percentile 50.0%: 2.577
+16:13:24 INFO: Percentile 90.0%: 2.577
+16:13:24 INFO: Percentile 95.0%: 2.577
+16:13:24 INFO: Percentile 99.0%: 2.577
+16:13:24 INFO: Percentile 99.9%: 2.577
+16:13:24 INFO: Percentile 100.0%: 2.577
+16:13:24 INFO: Test duration: 0:00:12
+16:13:24 INFO: Samples count: 1, 0.00% failures
+16:13:24 INFO: Average times: total 2.576, latency 0.000, connect 0.000
+16:13:24 INFO: Percentile 0.0%: 2.576
+16:13:24 INFO: Percentile 50.0%: 2.577
+16:13:24 INFO: Percentile 90.0%: 2.577
+16:13:24 INFO: Percentile 95.0%: 2.577
+16:13:24 INFO: Percentile 99.0%: 2.577
+16:13:24 INFO: Percentile 99.9%: 2.577
+16:13:24 INFO: Percentile 100.0%: 2.577
+16:13:24 INFO: +-------+--------+---------+----------+-------+
+16:13:24 INFO: | label | status | success | avg time | error |
+16:13:24 INFO: +-------+--------+---------+----------+-------+
+16:13:24 INFO: | Test  |   OK   | 100.00% |  2.576   |       |
+16:13:24 INFO: +-------+--------+---------+----------+-------+
+16:13:24 INFO: Artifacts dir: C:\temp\delete
+16:13:24 INFO: Done performing with code: 0
+16:13:25 INFO: Taurus CLI Tool v1.12.0
+16:13:25 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\store\\store-value.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:13:25 INFO: Configuring...
+16:13:25 INFO: Artifacts dir: C:\temp\delete
+16:13:25 INFO: Preparing...
+16:13:25 INFO: Starting...
+16:13:25 INFO: Waiting for results...
+16:13:37 WARNING: Please wait for graceful shutdown...
+16:13:37 INFO: Shutting down...
+16:13:37 INFO: Post-processing...
+16:13:37 INFO: Test duration: 0:00:12
+16:13:37 INFO: Samples count: 1, 0.00% failures
+16:13:37 INFO: Average times: total 2.633, latency 0.000, connect 0.000
+16:13:37 INFO: Percentile 0.0%: 2.632
+16:13:37 INFO: Percentile 50.0%: 2.633
+16:13:37 INFO: Percentile 90.0%: 2.633
+16:13:37 INFO: Percentile 95.0%: 2.633
+16:13:37 INFO: Percentile 99.0%: 2.633
+16:13:37 INFO: Percentile 99.9%: 2.633
+16:13:37 INFO: Percentile 100.0%: 2.633
+16:13:37 INFO: Test duration: 0:00:12
+16:13:37 INFO: Samples count: 1, 0.00% failures
+16:13:37 INFO: Average times: total 2.633, latency 0.000, connect 0.000
+16:13:37 INFO: Percentile 0.0%: 2.632
+16:13:37 INFO: Percentile 50.0%: 2.633
+16:13:37 INFO: Percentile 90.0%: 2.633
+16:13:37 INFO: Percentile 95.0%: 2.633
+16:13:37 INFO: Percentile 99.0%: 2.633
+16:13:37 INFO: Percentile 99.9%: 2.633
+16:13:37 INFO: Percentile 100.0%: 2.633
+16:13:37 INFO: +-------+--------+---------+----------+-------+
+16:13:37 INFO: | label | status | success | avg time | error |
+16:13:37 INFO: +-------+--------+---------+----------+-------+
+16:13:37 INFO: | Test  |   OK   | 100.00% |  2.633   |       |
+16:13:37 INFO: +-------+--------+---------+----------+-------+
+16:13:37 INFO: Artifacts dir: C:\temp\delete
+16:13:37 INFO: Done performing with code: 0
+16:13:38 INFO: Taurus CLI Tool v1.12.0
+16:13:38 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\submit\\submit-by-css.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:13:38 INFO: Configuring...
+16:13:38 INFO: Artifacts dir: C:\temp\delete
+16:13:38 INFO: Preparing...
+16:13:38 INFO: Starting...
+16:13:38 INFO: Waiting for results...
+16:14:48 WARNING: Please wait for graceful shutdown...
+16:14:48 INFO: Shutting down...
+16:14:48 INFO: Post-processing...
+16:14:48 INFO: Test duration: 0:01:10
+16:14:48 INFO: Samples count: 1, 100.00% failures
+16:14:48 INFO: Average times: total 60.379, latency 0.000, connect 0.000
+16:14:48 INFO: Percentile 0.0%: 60.352
+16:14:48 INFO: Percentile 50.0%: 60.383
+16:14:48 INFO: Percentile 90.0%: 60.383
+16:14:48 INFO: Percentile 95.0%: 60.383
+16:14:48 INFO: Percentile 99.0%: 60.383
+16:14:48 INFO: Percentile 99.9%: 60.383
+16:14:48 INFO: Percentile 100.0%: 60.383
+16:14:48 INFO: Test duration: 0:01:10
+16:14:48 INFO: Samples count: 1, 100.00% failures
+16:14:48 INFO: Average times: total 60.379, latency 0.000, connect 0.000
+16:14:48 INFO: Percentile 0.0%: 60.352
+16:14:48 INFO: Percentile 50.0%: 60.383
+16:14:48 INFO: Percentile 90.0%: 60.383
+16:14:48 INFO: Percentile 95.0%: 60.383
+16:14:48 INFO: Percentile 99.0%: 60.383
+16:14:48 INFO: Percentile 99.9%: 60.383
+16:14:48 INFO: Percentile 100.0%: 60.383
+16:14:48 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
+16:14:48 INFO: | label | status | success | avg time | error                                                       |
+16:14:48 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
+16:14:48 INFO: | Test  |  FAIL  |  0.00%  |  60.379  | NoSuchElementException: Message: no such element: Unable to |
+16:14:48 INFO: |       |        |         |          | locate element:                                             |
+16:14:48 INFO: |       |        |         |          | {"method":"id","selector":"search_blog_field"}    (Session  |
+16:14:48 INFO: |       |        |         |          | info: chrome=67.0.3396.87)    (Driver info:                 |
+16:14:48 INFO: |       |        |         |          | chromedriver=2.39.562718                                    |
+16:14:48 INFO: |       |        |         |          | (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows |
+16:14:48 INFO: |       |        |         |          | NT 10.0.17134 x86_64)                                       |
+16:14:48 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
+16:14:48 INFO: Artifacts dir: C:\temp\delete
+16:14:48 INFO: Done performing with code: 0
+16:14:49 INFO: Taurus CLI Tool v1.12.0
+16:14:49 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\submit\\submit-by-id.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:14:49 INFO: Configuring...
+16:14:49 INFO: Artifacts dir: C:\temp\delete
+16:14:49 INFO: Preparing...
+16:14:49 INFO: Starting...
+16:14:49 INFO: Waiting for results...
+16:15:04 WARNING: Please wait for graceful shutdown...
+16:15:04 INFO: Shutting down...
+16:15:04 INFO: Post-processing...
+16:15:04 INFO: Test duration: 0:00:15
+16:15:04 INFO: Samples count: 1, 0.00% failures
+16:15:04 INFO: Average times: total 5.776, latency 0.000, connect 0.000
+16:15:04 INFO: Percentile 0.0%: 5.776
+16:15:04 INFO: Percentile 50.0%: 5.779
+16:15:04 INFO: Percentile 90.0%: 5.779
+16:15:04 INFO: Percentile 95.0%: 5.779
+16:15:04 INFO: Percentile 99.0%: 5.779
+16:15:04 INFO: Percentile 99.9%: 5.779
+16:15:04 INFO: Percentile 100.0%: 5.779
+16:15:04 INFO: Test duration: 0:00:15
+16:15:04 INFO: Samples count: 1, 0.00% failures
+16:15:04 INFO: Average times: total 5.776, latency 0.000, connect 0.000
+16:15:04 INFO: Percentile 0.0%: 5.776
+16:15:04 INFO: Percentile 50.0%: 5.779
+16:15:04 INFO: Percentile 90.0%: 5.779
+16:15:04 INFO: Percentile 95.0%: 5.779
+16:15:04 INFO: Percentile 99.0%: 5.779
+16:15:04 INFO: Percentile 99.9%: 5.779
+16:15:04 INFO: Percentile 100.0%: 5.779
+16:15:04 INFO: +-------+--------+---------+----------+-------+
+16:15:04 INFO: | label | status | success | avg time | error |
+16:15:04 INFO: +-------+--------+---------+----------+-------+
+16:15:04 INFO: | Test  |   OK   | 100.00% |  5.776   |       |
+16:15:04 INFO: +-------+--------+---------+----------+-------+
+16:15:04 INFO: Artifacts dir: C:\temp\delete
+16:15:04 INFO: Done performing with code: 0
+16:15:05 INFO: Taurus CLI Tool v1.12.0
+16:15:05 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\submit\\submit-by-name.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:15:05 INFO: Configuring...
+16:15:05 INFO: Artifacts dir: C:\temp\delete
+16:15:05 INFO: Preparing...
+16:15:05 INFO: Starting...
+16:15:05 INFO: Waiting for results...
+16:15:15 WARNING: Please wait for graceful shutdown...
+16:15:15 INFO: Shutting down...
+16:15:15 INFO: Post-processing...
+16:15:15 INFO: Test duration: 0:00:10
+16:15:15 INFO: Samples count: 1, 100.00% failures
+16:15:15 INFO: Average times: total 0.448, latency 0.000, connect 0.000
+16:15:15 INFO: Percentile 0.0%: 0.448
+16:15:15 INFO: Percentile 50.0%: 0.448
+16:15:15 INFO: Percentile 90.0%: 0.448
+16:15:15 INFO: Percentile 95.0%: 0.448
+16:15:15 INFO: Percentile 99.0%: 0.448
+16:15:15 INFO: Percentile 99.9%: 0.448
+16:15:15 INFO: Percentile 100.0%: 0.448
+16:15:15 INFO: Test duration: 0:00:10
+16:15:15 INFO: Samples count: 1, 100.00% failures
+16:15:15 INFO: Average times: total 0.448, latency 0.000, connect 0.000
+16:15:15 INFO: Percentile 0.0%: 0.448
+16:15:15 INFO: Percentile 50.0%: 0.448
+16:15:15 INFO: Percentile 90.0%: 0.448
+16:15:15 INFO: Percentile 95.0%: 0.448
+16:15:15 INFO: Percentile 99.0%: 0.448
+16:15:15 INFO: Percentile 99.9%: 0.448
+16:15:15 INFO: Percentile 100.0%: 0.448
+16:15:15 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
+16:15:15 INFO: | label | status | success | avg time | error                                                       |
+16:15:15 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
+16:15:15 INFO: | Test  |  FAIL  |  0.00%  |  0.448   | WebDriverException: Message: unknown error: Failed to       |
+16:15:15 INFO: |       |        |         |          | execute 'getComputedStyle' on 'Window': parameter 1 is not  |
+16:15:15 INFO: |       |        |         |          | of type 'Element'.    (Session info: chrome=67.0.3396.87)   |
+16:15:15 INFO: |       |        |         |          | (Driver info: chromedriver=2.39.562718                      |
+16:15:15 INFO: |       |        |         |          | (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows |
+16:15:15 INFO: |       |        |         |          | NT 10.0.17134 x86_64)                                       |
+16:15:15 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
+16:15:15 INFO: Artifacts dir: C:\temp\delete
+16:15:15 INFO: Done performing with code: 0
+16:15:15 INFO: Taurus CLI Tool v1.12.0
+16:15:15 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\submit\\submit-by-xpath.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:15:15 INFO: Configuring...
+16:15:15 INFO: Artifacts dir: C:\temp\delete
+16:15:15 INFO: Preparing...
+16:15:16 INFO: Starting...
+16:15:16 INFO: Waiting for results...
+16:16:25 WARNING: Please wait for graceful shutdown...
+16:16:25 INFO: Shutting down...
+16:16:25 INFO: Post-processing...
+16:16:25 INFO: Test duration: 0:01:09
+16:16:25 INFO: Samples count: 1, 100.00% failures
+16:16:25 INFO: Average times: total 60.267, latency 0.000, connect 0.000
+16:16:25 INFO: Percentile 0.0%: 60.256
+16:16:25 INFO: Percentile 50.0%: 60.287
+16:16:25 INFO: Percentile 90.0%: 60.287
+16:16:25 INFO: Percentile 95.0%: 60.287
+16:16:25 INFO: Percentile 99.0%: 60.287
+16:16:25 INFO: Percentile 99.9%: 60.287
+16:16:25 INFO: Percentile 100.0%: 60.287
+16:16:25 INFO: Test duration: 0:01:09
+16:16:25 INFO: Samples count: 1, 100.00% failures
+16:16:25 INFO: Average times: total 60.267, latency 0.000, connect 0.000
+16:16:25 INFO: Percentile 0.0%: 60.256
+16:16:25 INFO: Percentile 50.0%: 60.287
+16:16:25 INFO: Percentile 90.0%: 60.287
+16:16:25 INFO: Percentile 95.0%: 60.287
+16:16:25 INFO: Percentile 99.0%: 60.287
+16:16:25 INFO: Percentile 99.9%: 60.287
+16:16:25 INFO: Percentile 100.0%: 60.287
+16:16:25 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
+16:16:25 INFO: | label | status | success | avg time | error                                                       |
+16:16:25 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
+16:16:25 INFO: | Test  |  FAIL  |  0.00%  |  60.267  | NoSuchElementException: Message: no such element: Unable to |
+16:16:25 INFO: |       |        |         |          | locate element:                                             |
+16:16:25 INFO: |       |        |         |          | {"method":"id","selector":"search_blog_field"}    (Session  |
+16:16:25 INFO: |       |        |         |          | info: chrome=67.0.3396.87)    (Driver info:                 |
+16:16:25 INFO: |       |        |         |          | chromedriver=2.39.562718                                    |
+16:16:25 INFO: |       |        |         |          | (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows |
+16:16:25 INFO: |       |        |         |          | NT 10.0.17134 x86_64)                                       |
+16:16:25 INFO: +-------+--------+---------+----------+-------------------------------------------------------------+
+16:16:25 INFO: Artifacts dir: C:\temp\delete
+16:16:25 INFO: Done performing with code: 0
+16:16:26 INFO: Taurus CLI Tool v1.12.0
+16:16:26 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\type-and-keys\\keys-by-css.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:16:26 INFO: Configuring...
+16:16:26 INFO: Artifacts dir: C:\temp\delete
+16:16:26 INFO: Preparing...
+16:16:26 INFO: Starting...
+16:16:26 INFO: Waiting for results...
+16:16:39 WARNING: Please wait for graceful shutdown...
+16:16:39 INFO: Shutting down...
+16:16:39 INFO: Post-processing...
+16:16:39 INFO: Test duration: 0:00:13
+16:16:39 INFO: Samples count: 1, 0.00% failures
+16:16:39 INFO: Average times: total 3.839, latency 0.000, connect 0.000
+16:16:39 INFO: Percentile 0.0%: 3.838
+16:16:39 INFO: Percentile 50.0%: 3.839
+16:16:39 INFO: Percentile 90.0%: 3.839
+16:16:39 INFO: Percentile 95.0%: 3.839
+16:16:39 INFO: Percentile 99.0%: 3.839
+16:16:39 INFO: Percentile 99.9%: 3.839
+16:16:39 INFO: Percentile 100.0%: 3.839
+16:16:39 INFO: Test duration: 0:00:13
+16:16:39 INFO: Samples count: 1, 0.00% failures
+16:16:39 INFO: Average times: total 3.839, latency 0.000, connect 0.000
+16:16:39 INFO: Percentile 0.0%: 3.838
+16:16:39 INFO: Percentile 50.0%: 3.839
+16:16:39 INFO: Percentile 90.0%: 3.839
+16:16:39 INFO: Percentile 95.0%: 3.839
+16:16:39 INFO: Percentile 99.0%: 3.839
+16:16:39 INFO: Percentile 99.9%: 3.839
+16:16:39 INFO: Percentile 100.0%: 3.839
+16:16:39 INFO: +-------+--------+---------+----------+-------+
+16:16:39 INFO: | label | status | success | avg time | error |
+16:16:39 INFO: +-------+--------+---------+----------+-------+
+16:16:39 INFO: | Test  |   OK   | 100.00% |  3.839   |       |
+16:16:39 INFO: +-------+--------+---------+----------+-------+
+16:16:39 INFO: Artifacts dir: C:\temp\delete
+16:16:39 INFO: Done performing with code: 0
+16:16:40 INFO: Taurus CLI Tool v1.12.0
+16:16:40 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\type-and-keys\\keys-by-id.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:16:40 INFO: Configuring...
+16:16:40 INFO: Artifacts dir: C:\temp\delete
+16:16:40 INFO: Preparing...
+16:16:40 INFO: Starting...
+16:16:40 INFO: Waiting for results...
+16:16:53 WARNING: Please wait for graceful shutdown...
+16:16:53 INFO: Shutting down...
+16:16:53 INFO: Post-processing...
+16:16:53 INFO: Test duration: 0:00:13
+16:16:53 INFO: Samples count: 1, 0.00% failures
+16:16:53 INFO: Average times: total 3.370, latency 0.000, connect 0.000
+16:16:53 INFO: Percentile 0.0%: 3.370
+16:16:53 INFO: Percentile 50.0%: 3.371
+16:16:53 INFO: Percentile 90.0%: 3.371
+16:16:53 INFO: Percentile 95.0%: 3.371
+16:16:53 INFO: Percentile 99.0%: 3.371
+16:16:53 INFO: Percentile 99.9%: 3.371
+16:16:53 INFO: Percentile 100.0%: 3.371
+16:16:53 INFO: Test duration: 0:00:13
+16:16:53 INFO: Samples count: 1, 0.00% failures
+16:16:53 INFO: Average times: total 3.370, latency 0.000, connect 0.000
+16:16:53 INFO: Percentile 0.0%: 3.370
+16:16:53 INFO: Percentile 50.0%: 3.371
+16:16:53 INFO: Percentile 90.0%: 3.371
+16:16:53 INFO: Percentile 95.0%: 3.371
+16:16:53 INFO: Percentile 99.0%: 3.371
+16:16:53 INFO: Percentile 99.9%: 3.371
+16:16:53 INFO: Percentile 100.0%: 3.371
+16:16:53 INFO: +-------+--------+---------+----------+-------+
+16:16:53 INFO: | label | status | success | avg time | error |
+16:16:53 INFO: +-------+--------+---------+----------+-------+
+16:16:53 INFO: | Test  |   OK   | 100.00% |  3.370   |       |
+16:16:53 INFO: +-------+--------+---------+----------+-------+
+16:16:53 INFO: Artifacts dir: C:\temp\delete
+16:16:53 INFO: Done performing with code: 0
+16:16:54 INFO: Taurus CLI Tool v1.12.0
+16:16:54 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\type-and-keys\\keys-by-name.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:16:54 INFO: Configuring...
+16:16:54 INFO: Artifacts dir: C:\temp\delete
+16:16:54 INFO: Preparing...
+16:16:54 INFO: Starting...
+16:16:54 INFO: Waiting for results...
+16:17:06 WARNING: Please wait for graceful shutdown...
+16:17:06 INFO: Shutting down...
+16:17:06 INFO: Post-processing...
+16:17:06 INFO: Test duration: 0:00:12
+16:17:06 INFO: Samples count: 1, 0.00% failures
+16:17:06 INFO: Average times: total 3.381, latency 0.000, connect 0.000
+16:17:06 INFO: Percentile 0.0%: 3.380
+16:17:06 INFO: Percentile 50.0%: 3.381
+16:17:06 INFO: Percentile 90.0%: 3.381
+16:17:06 INFO: Percentile 95.0%: 3.381
+16:17:06 INFO: Percentile 99.0%: 3.381
+16:17:06 INFO: Percentile 99.9%: 3.381
+16:17:06 INFO: Percentile 100.0%: 3.381
+16:17:06 INFO: Test duration: 0:00:12
+16:17:06 INFO: Samples count: 1, 0.00% failures
+16:17:06 INFO: Average times: total 3.381, latency 0.000, connect 0.000
+16:17:06 INFO: Percentile 0.0%: 3.380
+16:17:06 INFO: Percentile 50.0%: 3.381
+16:17:06 INFO: Percentile 90.0%: 3.381
+16:17:06 INFO: Percentile 95.0%: 3.381
+16:17:06 INFO: Percentile 99.0%: 3.381
+16:17:06 INFO: Percentile 99.9%: 3.381
+16:17:06 INFO: Percentile 100.0%: 3.381
+16:17:06 INFO: +-------+--------+---------+----------+-------+
+16:17:06 INFO: | label | status | success | avg time | error |
+16:17:06 INFO: +-------+--------+---------+----------+-------+
+16:17:06 INFO: | Test  |   OK   | 100.00% |  3.381   |       |
+16:17:06 INFO: +-------+--------+---------+----------+-------+
+16:17:06 INFO: Artifacts dir: C:\temp\delete
+16:17:06 INFO: Done performing with code: 0
+16:17:06 INFO: Taurus CLI Tool v1.12.0
+16:17:06 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\type-and-keys\\keys-by-xpath.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:17:06 INFO: Configuring...
+16:17:06 INFO: Artifacts dir: C:\temp\delete
+16:17:07 INFO: Preparing...
+16:17:07 INFO: Starting...
+16:17:07 INFO: Waiting for results...
+16:17:20 WARNING: Please wait for graceful shutdown...
+16:17:20 INFO: Shutting down...
+16:17:20 INFO: Post-processing...
+16:17:20 INFO: Test duration: 0:00:13
+16:17:20 INFO: Samples count: 1, 0.00% failures
+16:17:20 INFO: Average times: total 3.321, latency 0.000, connect 0.000
+16:17:20 INFO: Percentile 0.0%: 3.320
+16:17:20 INFO: Percentile 50.0%: 3.321
+16:17:20 INFO: Percentile 90.0%: 3.321
+16:17:20 INFO: Percentile 95.0%: 3.321
+16:17:20 INFO: Percentile 99.0%: 3.321
+16:17:20 INFO: Percentile 99.9%: 3.321
+16:17:20 INFO: Percentile 100.0%: 3.321
+16:17:20 INFO: Test duration: 0:00:13
+16:17:20 INFO: Samples count: 1, 0.00% failures
+16:17:20 INFO: Average times: total 3.321, latency 0.000, connect 0.000
+16:17:20 INFO: Percentile 0.0%: 3.320
+16:17:20 INFO: Percentile 50.0%: 3.321
+16:17:20 INFO: Percentile 90.0%: 3.321
+16:17:20 INFO: Percentile 95.0%: 3.321
+16:17:20 INFO: Percentile 99.0%: 3.321
+16:17:20 INFO: Percentile 99.9%: 3.321
+16:17:20 INFO: Percentile 100.0%: 3.321
+16:17:20 INFO: +-------+--------+---------+----------+-------+
+16:17:20 INFO: | label | status | success | avg time | error |
+16:17:20 INFO: +-------+--------+---------+----------+-------+
+16:17:20 INFO: | Test  |   OK   | 100.00% |  3.321   |       |
+16:17:20 INFO: +-------+--------+---------+----------+-------+
+16:17:20 INFO: Artifacts dir: C:\temp\delete
+16:17:20 INFO: Done performing with code: 0
+16:17:20 INFO: Taurus CLI Tool v1.12.0
+16:17:20 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\type-and-keys\\type-by.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:17:20 INFO: Configuring...
+16:17:20 INFO: Artifacts dir: C:\temp\delete
+16:17:20 INFO: Preparing...
+16:17:21 INFO: Starting...
+16:17:21 INFO: Waiting for results...
+16:17:33 WARNING: Please wait for graceful shutdown...
+16:17:33 INFO: Shutting down...
+16:17:33 INFO: Post-processing...
+16:17:33 INFO: Test duration: 0:00:12
+16:17:33 INFO: Samples count: 1, 0.00% failures
+16:17:33 INFO: Average times: total 3.062, latency 0.000, connect 0.000
+16:17:33 INFO: Percentile 0.0%: 3.062
+16:17:33 INFO: Percentile 50.0%: 3.063
+16:17:33 INFO: Percentile 90.0%: 3.063
+16:17:33 INFO: Percentile 95.0%: 3.063
+16:17:33 INFO: Percentile 99.0%: 3.063
+16:17:33 INFO: Percentile 99.9%: 3.063
+16:17:33 INFO: Percentile 100.0%: 3.063
+16:17:33 INFO: Test duration: 0:00:12
+16:17:33 INFO: Samples count: 1, 0.00% failures
+16:17:33 INFO: Average times: total 3.062, latency 0.000, connect 0.000
+16:17:33 INFO: Percentile 0.0%: 3.062
+16:17:33 INFO: Percentile 50.0%: 3.063
+16:17:33 INFO: Percentile 90.0%: 3.063
+16:17:33 INFO: Percentile 95.0%: 3.063
+16:17:33 INFO: Percentile 99.0%: 3.063
+16:17:33 INFO: Percentile 99.9%: 3.063
+16:17:33 INFO: Percentile 100.0%: 3.063
+16:17:33 INFO: +-------+--------+---------+----------+-------+
+16:17:33 INFO: | label | status | success | avg time | error |
+16:17:33 INFO: +-------+--------+---------+----------+-------+
+16:17:33 INFO: | Test  |   OK   | 100.00% |  3.062   |       |
+16:17:33 INFO: +-------+--------+---------+----------+-------+
+16:17:33 INFO: Artifacts dir: C:\temp\delete
+16:17:33 INFO: Done performing with code: 0
+16:17:33 INFO: Taurus CLI Tool v1.12.0
+16:17:33 INFO: Starting with configs: ['C:\\Luis\\Abstracta\\examples\\taurus\\selenium\\windows\\select-close-window.yaml', 'C:\\Luis\\Abstracta\\test\\base-config.yaml']
+16:17:33 INFO: Configuring...
+16:17:33 INFO: Artifacts dir: C:\temp\delete
+16:17:33 INFO: Preparing...
+16:17:33 INFO: Starting...
+16:17:33 INFO: Waiting for results...
+16:17:44 WARNING: Please wait for graceful shutdown...
+16:17:44 INFO: Shutting down...
+16:17:44 INFO: Post-processing...
+16:17:45 INFO: Test duration: 0:00:11
+16:17:45 INFO: Samples count: 1, 0.00% failures
+16:17:45 INFO: Average times: total 2.187, latency 0.000, connect 0.000
+16:17:45 INFO: Percentile 0.0%: 2.186
+16:17:45 INFO: Percentile 50.0%: 2.187
+16:17:45 INFO: Percentile 90.0%: 2.187
+16:17:45 INFO: Percentile 95.0%: 2.187
+16:17:45 INFO: Percentile 99.0%: 2.187
+16:17:45 INFO: Percentile 99.9%: 2.187
+16:17:45 INFO: Percentile 100.0%: 2.187
+16:17:45 INFO: Test duration: 0:00:11
+16:17:45 INFO: Samples count: 1, 0.00% failures
+16:17:45 INFO: Average times: total 2.187, latency 0.000, connect 0.000
+16:17:45 INFO: Percentile 0.0%: 2.186
+16:17:45 INFO: Percentile 50.0%: 2.187
+16:17:45 INFO: Percentile 90.0%: 2.187
+16:17:45 INFO: Percentile 95.0%: 2.187
+16:17:45 INFO: Percentile 99.0%: 2.187
+16:17:45 INFO: Percentile 99.9%: 2.187
+16:17:45 INFO: Percentile 100.0%: 2.187
+16:17:45 INFO: +-------+--------+---------+----------+-------+
+16:17:45 INFO: | label | status | success | avg time | error |
+16:17:45 INFO: +-------+--------+---------+----------+-------+
+16:17:45 INFO: | Test  |   OK   | 100.00% |  2.187   |       |
+16:17:45 INFO: +-------+--------+---------+----------+-------+
+16:17:45 INFO: Artifacts dir: C:\temp\delete
+16:17:45 INFO: Done performing with code: 0
