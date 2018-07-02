@@ -1,0 +1,6 @@
+2018-07-02 17:19:49,168:INFO:1985:123145500479488:loadgen:Total workers: 1
+2018-07-02 17:19:49,193:INFO:1988:123145500479488:loadgen:Adding worker: idx=0	concurrency=1	results=/Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-19-41.067714/apiritif-0.csv
+2018-07-02 17:19:51,368:INFO:1988:123145349795840:apiritif.recorder:Transaction started:: start_time=1530562791.368,name=Test
+2018-07-02 17:19:55,063:INFO:1988:123145349795840:apiritif.recorder:Transaction ended:: duration=3.695,name=Test
+2018-07-02 17:19:55,142:INFO:1988:123145500479488:loadgen:Workers finished, awaiting result writer
+2018-07-02 17:19:55,243:INFO:1988:123145500479488:loadgen:Results written, shutting down

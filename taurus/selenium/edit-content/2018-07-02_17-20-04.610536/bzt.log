@@ -1,0 +1,121 @@
+[2018-07-02 17:20:04,533 INFO root] Taurus CLI Tool v1.12.0
+[2018-07-02 17:20:04,533 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/md/ysqx2ngs3hgbclr2xvxrdtkw0000gn/T/bzt_lQZqhZ.log', 'option': None, 'aliases': []}
+[2018-07-02 17:20:04,534 DEBUG root] Python: CPython 2.7.15
+[2018-07-02 17:20:04,534 DEBUG root] OS: ('Darwin', 'luiss-air.lan', '17.6.0', 'Darwin Kernel Version 17.6.0: Tue May  8 15:22:16 PDT 2018; root:xnu-4570.61.1~1/RELEASE_X86_64', 'x86_64', 'i386')
+[2018-07-02 17:20:04,534 INFO root] Starting with configs: ['edit-content.yaml']
+[2018-07-02 17:20:04,535 DEBUG root] Using personal config: /Users/luis/.bzt-rc
+[2018-07-02 17:20:04,535 INFO Engine] Configuring...
+[2018-07-02 17:20:04,535 DEBUG Engine] No machine configs dir: /usr/local/etc/bzt.d
+[2018-07-02 17:20:04,535 DEBUG Engine] Base configs list: ['/usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2018-07-02 17:20:04,536 DEBUG Engine.Configuration] Configs: ['/usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2018-07-02 17:20:04,536 DEBUG Engine.Configuration] Reading /usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2018-07-02 17:20:04,575 DEBUG Engine] User configs list: ['/Users/luis/.bzt-rc', 'edit-content.yaml']
+[2018-07-02 17:20:04,576 DEBUG Engine.Configuration] Configs: ['/Users/luis/.bzt-rc', 'edit-content.yaml']
+[2018-07-02 17:20:04,576 DEBUG Engine.Configuration] Reading /Users/luis/.bzt-rc as YAML
+[2018-07-02 17:20:04,582 DEBUG Engine.Configuration] Reading edit-content.yaml as YAML
+[2018-07-02 17:20:04,589 DEBUG Engine.Configuration] Configs: ['/Users/luis/.bzt-rc', 'edit-content.yaml']
+[2018-07-02 17:20:04,589 DEBUG Engine.Configuration] Reading /Users/luis/.bzt-rc as YAML
+[2018-07-02 17:20:04,594 DEBUG Engine.Configuration] Reading edit-content.yaml as YAML
+[2018-07-02 17:20:04,610 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.12.0&installID=macos-1094bbcbca3c
+[2018-07-02 17:20:04,616 INFO Engine] Artifacts dir: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536
+[2018-07-02 17:20:04,617 DEBUG Engine] New artifact filename: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/effective
+[2018-07-02 17:20:04,621 DEBUG Engine.Configuration] Dumping YAML config into /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/effective.yml
+[2018-07-02 17:20:04,651 DEBUG Engine.Configuration] Dumping JSON config into /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/effective.json
+[2018-07-02 17:20:04,653 DEBUG Engine] New artifact filename: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/merged.yml
+[2018-07-02 17:20:04,655 DEBUG Engine.Configuration] Dumping YAML config into /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/merged.yml
+[2018-07-02 17:20:04,659 DEBUG Engine] New artifact filename: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/merged.json
+[2018-07-02 17:20:04,659 DEBUG Engine.Configuration] Dumping JSON config into /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/merged.json
+[2018-07-02 17:20:04,660 DEBUG Engine] Add existing artifact (move=False): edit-content.yaml
+[2018-07-02 17:20:04,660 DEBUG Engine] Copying edit-content.yaml to /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/edit-content.yaml
+[2018-07-02 17:20:04,660 DEBUG Engine.Environment] Replace 'TAURUS_ARTIFACTS_DIR' in environment
+[2018-07-02 17:20:04,661 DEBUG root] Closing log handler: /var/folders/md/ysqx2ngs3hgbclr2xvxrdtkw0000gn/T/bzt_lQZqhZ.log
+[2018-07-02 17:20:04,662 DEBUG root] Switched writing logs to /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/bzt.log
+[2018-07-02 17:20:04,663 DEBUG root] Linting config
+[2018-07-02 17:20:04,668 INFO Engine] Preparing...
+[2018-07-02 17:20:04,669 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': u'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2018-07-02 17:20:04,669 DEBUG root] Importing module: bzt.modules.aggregator
+[2018-07-02 17:20:04,794 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2018-07-02 17:20:04,794 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2018-07-02 17:20:04,795 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': u'bzt.modules.monitoring.Monitoring'})
+[2018-07-02 17:20:04,795 DEBUG root] Importing module: bzt.modules.monitoring
+[2018-07-02 17:20:04,796 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2018-07-02 17:20:04,797 DEBUG Engine] Module config: local defaultdict(None, {'class': u'bzt.modules.provisioning.Local'})
+[2018-07-02 17:20:04,798 DEBUG root] Importing module: bzt.modules.provisioning
+[2018-07-02 17:20:04,798 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/lib/python2.7/site-packages/bzt/modules/provisioning.pyc'>
+[2018-07-02 17:20:04,798 DEBUG Engine] Module config: selenium defaultdict(None, {'class': u'bzt.modules.selenium.SeleniumExecutor'})
+[2018-07-02 17:20:04,798 DEBUG root] Importing module: bzt.modules.selenium
+[2018-07-02 17:20:04,799 DEBUG root] Loading class: 'SeleniumExecutor' from <module 'bzt.modules.selenium' from '/usr/local/lib/python2.7/site-packages/bzt/modules/selenium.pyc'>
+[2018-07-02 17:20:04,799 DEBUG Engine.local] Preparing executor: selenium/4549335632
+[2018-07-02 17:20:04,800 DEBUG Engine] Module config: nose defaultdict(None, {'class': u'bzt.modules.python.ApiritifNoseExecutor'})
+[2018-07-02 17:20:04,800 DEBUG root] Importing module: bzt.modules.python
+[2018-07-02 17:20:04,820 DEBUG root] Loading class: 'ApiritifNoseExecutor' from <module 'bzt.modules.python' from '/usr/local/lib/python2.7/site-packages/bzt/modules/python.pyc'>
+[2018-07-02 17:20:04,820 DEBUG Engine] New artifact filename: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/test_requests.py
+[2018-07-02 17:20:04,821 DEBUG Engine] New artifact filename: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/webdriver.log
+[2018-07-02 17:20:04,821 DEBUG Engine.nose.SeleniumScriptBuilder] Generating Test Case test methods
+[2018-07-02 17:20:04,821 DEBUG Engine.nose.SeleniumScriptBuilder] Generating setUp test method
+[2018-07-02 17:20:04,821 DEBUG Engine.nose.SeleniumScriptBuilder] Generating tearDown test method
+[2018-07-02 17:20:04,821 DEBUG Engine.nose.SeleniumScriptBuilder] Generating test method test_requests
+[2018-07-02 17:20:04,825 DEBUG Engine] Module config: final-stats defaultdict(None, {'class': u'bzt.modules.reporting.FinalStatus'})
+[2018-07-02 17:20:04,825 DEBUG root] Importing module: bzt.modules.reporting
+[2018-07-02 17:20:04,879 DEBUG easyprocess] version=0.2.3
+[2018-07-02 17:20:04,881 DEBUG pyvirtualdisplay] version=0.2.1
+[2018-07-02 17:20:04,887 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/lib/python2.7/site-packages/bzt/modules/reporting.pyc'>
+[2018-07-02 17:20:04,887 DEBUG Engine] Module config: console defaultdict(None, {'class': u'bzt.modules.console.ConsoleStatusReporter'})
+[2018-07-02 17:20:04,887 DEBUG root] Importing module: bzt.modules.console
+[2018-07-02 17:20:04,887 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/lib/python2.7/site-packages/bzt/modules/console.pyc'>
+[2018-07-02 17:20:04,895 DEBUG Engine.Configuration] Dumping YAML config into /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/effective.yml
+[2018-07-02 17:20:04,928 DEBUG Engine.Configuration] Dumping JSON config into /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/effective.json
+[2018-07-02 17:20:04,929 INFO Engine] Starting...
+[2018-07-02 17:20:04,929 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x10f24e450>
+[2018-07-02 17:20:04,929 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x10dd4d790>
+[2018-07-02 17:20:04,929 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x10f2b6890>
+[2018-07-02 17:20:04,930 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x10f384a10>
+[2018-07-02 17:20:04,930 INFO Engine.console] Waiting for results...
+[2018-07-02 17:20:04,930 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x10dd234d0>
+[2018-07-02 17:20:04,930 DEBUG Engine.local] Delay setup for selenium/editContent-Selenium: 0(start-at) + 0(delay) = 0
+[2018-07-02 17:20:04,933 DEBUG Engine.Configuration] Dumping YAML config into /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/effective.yml
+[2018-07-02 17:20:04,964 DEBUG Engine.Configuration] Dumping JSON config into /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/effective.json
+[2018-07-02 17:20:04,968 DEBUG root] Leveling down log file verbosity, use -v option to have DEBUG messages enabled
+[2018-07-02 17:20:04,969 DEBUG root] Leveled up log file verbosity
+[2018-07-02 17:20:04,969 DEBUG Engine] New artifact filename: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/apiritif-
+[2018-07-02 17:20:04,970 DEBUG Engine] New artifact filename: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/nose.out
+[2018-07-02 17:20:04,970 DEBUG Engine] New artifact filename: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/nose.err
+[2018-07-02 17:20:04,971 DEBUG bzt.utils] Executing shell: ['/usr/local/opt/python@2/bin/python2.7', '-m', 'apiritif.loadgen', '--result-file-template', '/Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/apiritif-%s.csv', '--iterations', '1', '/Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/test_requests.py'] at /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content
+[2018-07-02 17:20:04,983 DEBUG root] Leveling down log file verbosity, use -v option to have DEBUG messages enabled
+[2018-07-02 17:20:05,203 INFO Engine.console] Waiting for finish...
+[2018-07-02 17:20:11,072 WARNING Engine] Please wait for graceful shutdown...
+[2018-07-02 17:20:11,076 DEBUG root] Leveled up log file verbosity
+[2018-07-02 17:20:11,078 INFO Engine] Shutting down...
+[2018-07-02 17:20:11,083 DEBUG Engine] Current stop reason: None
+[2018-07-02 17:20:11,084 DEBUG Engine.local] Shutdown selenium/editContent-Selenium
+[2018-07-02 17:20:11,084 DEBUG Engine.selenium] Selenium tests ran for 6.11493492126 seconds
+[2018-07-02 17:20:11,084 DEBUG Engine.console] Restoring logging streams, [<logging.StreamHandler object at 0x10dd1fad0>]/{<logging.StreamHandler object at 0x10dd1fad0>: <open file '<stdout>', mode 'w' at 0x10ca26150>}
+[2018-07-02 17:20:11,088 DEBUG Engine.Configuration] Dumping YAML config into /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/effective.yml
+[2018-07-02 17:20:11,133 DEBUG Engine.Configuration] Dumping JSON config into /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/effective.json
+[2018-07-02 17:20:11,136 INFO Engine] Post-processing...
+[2018-07-02 17:20:11,136 DEBUG Engine.local] Post-process selenium/editContent-Selenium
+[2018-07-02 17:20:11,136 DEBUG Engine.nose.FileReader] Reading: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/nose.out
+[2018-07-02 17:20:11,136 DEBUG Engine.nose.FileReader] Reading: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/nose.out
+[2018-07-02 17:20:11,137 DEBUG Engine.nose.ApiritifLoadReader.JTLReader.IncrementalCSVReader.FileReader] Reading: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/apiritif-0.csv
+[2018-07-02 17:20:11,137 DEBUG Engine.nose.ApiritifLoadReader] Buffer len: 1
+[2018-07-02 17:20:11,137 DEBUG Engine.nose.ApiritifLoadReader] Aggregating: 1530562807
+[2018-07-02 17:20:11,160 DEBUG Engine.consolidator] Consolidator buffer[1]: [1530562807]
+[2018-07-02 17:20:11,161 DEBUG Engine.consolidator] Merging into 1530562807
+[2018-07-02 17:20:11,161 DEBUG Engine.consolidator] Merging 1530562807
+[2018-07-02 17:20:11,211 DEBUG Engine.consolidator] Processed datapoint: 1530562807/None
+[2018-07-02 17:20:11,211 INFO Engine.final-stats] Test duration: 0:00:07
+[2018-07-02 17:20:11,211 INFO Engine.final-stats] Samples count: 1, 0.00% failures
+[2018-07-02 17:20:11,211 INFO Engine.final-stats] Average times: total 3.061, latency 0.000, connect 0.000
+[2018-07-02 17:20:11,212 INFO Engine.final-stats] Percentile 0.0%: 3.060
+[2018-07-02 17:20:11,212 INFO Engine.final-stats] Percentile 50.0%: 3.061
+[2018-07-02 17:20:11,212 INFO Engine.final-stats] Percentile 90.0%: 3.061
+[2018-07-02 17:20:11,212 INFO Engine.final-stats] Percentile 95.0%: 3.061
+[2018-07-02 17:20:11,213 INFO Engine.final-stats] Percentile 99.0%: 3.061
+[2018-07-02 17:20:11,213 INFO Engine.final-stats] Percentile 99.9%: 3.061
+[2018-07-02 17:20:11,213 INFO Engine.final-stats] Percentile 100.0%: 3.061
+[2018-07-02 17:20:11,213 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2018-07-02 17:20:11,216 DEBUG Engine.Configuration] Dumping YAML config into /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/effective.yml
+[2018-07-02 17:20:11,247 DEBUG Engine.Configuration] Dumping JSON config into /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/effective.json
+[2018-07-02 17:20:11,251 INFO root] Artifacts dir: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536
+[2018-07-02 17:20:11,252 INFO root] Done performing with code: 0
+[2018-07-02 17:20:11,252 DEBUG root] Closing log handler: /Users/luis/Documents/Abstracta/GitHub/examples/taurus/selenium/edit-content/2018-07-02_17-20-04.610536/bzt.log

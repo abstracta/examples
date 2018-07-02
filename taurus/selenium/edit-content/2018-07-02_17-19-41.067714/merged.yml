@@ -1,0 +1,26 @@
+---
+execution:
+- executor: selenium
+  iterations: 1
+  scenario: editContent-Selenium
+scenarios:
+  editContent-Selenium:
+    browser: Chrome
+    headless: false
+    requests:
+    - actions:
+      - go(https://abstracta.github.io/examples/resources/edit-content/edit-content.html)
+      - switchFrame(index=0)
+      - clickByCSS(body)
+      - editContentByID(tinymce): <p>test 9999<br></p>
+      - assertTextByCSS(p): test 9999
+      - editContentByCSS(#tinymce): <p>test 99<br></p>
+      - assertTextByCSS(p): test 99
+      - editContentByXPath(//body[@id='tinymce']): <p>test 0<br></p>
+      - assertTextByCSS(p): test 0
+      - switchFrame(relative=parent)
+      - clickByCSS(body)
+      label: Test
+    think-time: 0s
+    timeout: 60s
+
