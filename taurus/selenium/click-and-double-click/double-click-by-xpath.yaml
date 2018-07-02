@@ -20,5 +20,5 @@ scenarios:
     - label: Test
       actions:
       - go(https://abstracta.github.io/examples/resources/double-click/double-click.html)
-      - doubleClickByXPath(//p)
+      - doubleClickByXPath(//p[@id='dcHere'])
       - assertTextByID(content): "The paragraph was double clicked."
