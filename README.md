@@ -41,3 +41,8 @@ Coming soon
 ## JMeter (JMX)
 
 Coming soon
+
+## JMeterDSL
+
+JMeterDSL is a new tool that provides a simple Java API with git friendly format to create and execute JMeter tests.
+Check out our template [here](https://github.com/abstracta/examples/tree/master/JMeterDSL)
