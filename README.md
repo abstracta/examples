@@ -46,3 +46,17 @@ Coming soon
 
 JMeterDSL is a new tool that provides a simple Java API with git friendly format to create and execute JMeter tests.
 Check out our template [here](https://github.com/abstracta/examples/tree/master/JMeterDSL)
+
+## Selenium WebDriver 4 
+
+### Java - Maven
+
+Some examples of the brand new features included in the new version of the well known UI Automation software
+
+[Authentication](https://github.com/abstracta/examples/tree/master/selenium4_examples/src/test/java/tests/TestAuthentication.java)
+
+[Relative Locators](https://github.com/abstracta/examples/tree/master/selenium4_examples/src/test/java/tests/TestRelativeLocators.java)
+
+[Network Interceptor](https://github.com/abstracta/examples/tree/master/selenium4_examples/src/test/java/tests/TestNetworkInterceptor.java)
+
+[Chrome DevTools](https://github.com/abstracta/examples/tree/master/selenium4_examples/src/test/java/tests/TestDevTools.java)
